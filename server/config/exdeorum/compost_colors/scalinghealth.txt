@@ -1,0 +1,11 @@
+// Compost colors for scalinghealth. You may add your own colors, change existing ones, or remove colors that aren't needed.
+bandages, #ffffff
+chance_heart, #ffffff
+cursed_heart, #ffffff
+enchanted_heart, #ffffff
+heart_crystal, #ff2d2d
+heart_crystal_shard, #ffffff
+heart_dust, #fb2a2a
+medkit, #ffffff
+power_crystal, #186eff
+power_crystal_shard, #ffffff

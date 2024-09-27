@@ -1,0 +1,23 @@
+// Compost colors for benssharks. You may add your own colors, change existing ones, or remove colors that aren't needed.
+axoleather, #6b8dc3
+axoscute, #5e7db1
+blacktip_reef_shark_bucket, #969698
+bonnethead_shark_bucket, #939497
+cellophane_noodles, #e8d3be
+cookiecutter_shark_bucket, #a0979a
+cookiecutter_shark_live, #7f5c3e
+dent, #cfede4
+fish_broth, #c6b8ab
+fish_bucket, #cdb4a4
+jagged_boots, #6278a5
+jagged_chestplate, #5c76aa
+jagged_helmet, #3e5c9b
+jagged_leggings, #5b6e91
+land_mine, #944b4b
+land_mine_stepped_on, #944b4b
+remora_bucket, #868da0
+shark_fin_soup, #8a6b29
+shark_tooth, #ffe3da
+silverfish, #8c8c8c
+starch, #fbf5d0
+sucker, #2a2f3c

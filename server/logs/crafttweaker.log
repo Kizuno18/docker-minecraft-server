@@ -1,0 +1,46 @@
+[00:09:44.459][INFO][CraftTweaker-EarlyInit]: CraftTweaker is running on a Minecraft 1.20.1 production server modded with platform Forge
+[00:09:44.478][INFO][CraftTweaker-EarlyInit]: Successfully injected RecipeFS file system
+[00:09:44.513][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin jeitweaker:common
+[00:09:44.568][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin
+[00:09:44.569][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[00:09:44.578][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[00:09:44.581][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin refurbished_furniture:plugin
+[00:09:44.594][INFO][CraftTweaker-Plugins]: Successfully identified and loaded plugin mekanism:crt_plugin
+[00:09:44.621][INFO][JEITweaker]: Identified JeiTweaker plugin 'jeitweaker:forge': loading scheduled
+[00:09:44.623][INFO][JEITweaker]: Identified JeiTweaker plugin 'jeitweaker:common': loading scheduled
+[00:09:44.629][INFO][JEITweaker]: Identified JeiTweaker plugin 'mekanism:crt_jei': loading scheduled
+[00:09:44.638][INFO][JEITweaker]: JEITweaker Environmental Check: the combination of mods [jei] is fully supported
+[00:09:44.638][INFO][JEITweaker]: Running JeiTweaker plugin initialization
+[00:09:44.801][INFO][JEITweaker]: JeiTweaker plugin initialization completed successfully
+[00:09:46.806][INFO][CraftTweaker]: The following mods have explicit CraftTweaker support through the default plugin:
+[00:09:46.807][INFO][CraftTweaker]: - 'aquaculture' at version '2.5.2'
+[00:09:46.807][INFO][CraftTweaker]: - 'crafttweaker' at version '14.0.43'
+[00:09:46.808][INFO][CraftTweaker]: - 'cyclic' at version '1.12.12'
+[00:09:46.808][INFO][CraftTweaker]: - 'exnihilosequentia' at version '5.0.0'
+[00:09:46.808][INFO][CraftTweaker]: - 'farmersdelight' at version '1.20.1-1.2.4'
+[00:09:46.808][INFO][CraftTweaker]: - 'gateways' at version '4.2.6'
+[00:09:46.808][INFO][CraftTweaker]: - 'jeitweaker' at version '8.0.6'
+[00:09:46.808][INFO][CraftTweaker]: - 'mekanism' at version '10.4.9'
+[00:09:46.809][INFO][CraftTweaker]: - 'refurbished_furniture' at version '1.0.6'
+[00:10:19.706][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'mekanismcontent'
+[00:10:20.157][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[00:10:21.171][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[00:10:21.384][INFO][CraftTweaker-ZenCode]: Execution for loader 'mekanismcontent' completed successfully
+[00:10:21.384][INFO][Mekanism]: Registering 0 custom gases.
+[00:10:21.392][INFO][Mekanism]: Registering 0 custom infuse types.
+[00:10:21.413][INFO][Mekanism]: Registering 0 custom pigments.
+[00:10:21.429][INFO][Mekanism]: Registering 0 custom slurries.
+[00:10:24.710][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'initialize'
+[00:10:24.762][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[00:10:24.763][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[00:10:24.775][INFO][CraftTweaker-ZenCode]: Execution for loader 'initialize' completed successfully
+[00:11:07.277][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'tags'
+[00:11:07.296][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[00:11:07.301][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [crafttweaker, expansions]
+[00:11:07.312][INFO][CraftTweaker-ZenCode]: Execution for loader 'tags' completed successfully
+[00:11:11.670][INFO][CraftTweaker]: crafttweaker.reload.start
+[00:11:11.683][INFO][CraftTweaker-ZenCode]: Started loading scripts for loader 'crafttweaker'
+[00:11:11.699][INFO][CraftTweaker-ZenCode]: Compiling and executing scripts
+[00:11:11.874][INFO][CraftTweaker-ZenCode]: Successfully initialized modules [mods, crafttweaker, expansions]
+[00:11:11.907][INFO][CraftTweaker-ZenCode]: Execution for loader 'crafttweaker' completed successfully
+[00:11:11.909][INFO][CraftTweaker]: crafttweaker.reload.complete

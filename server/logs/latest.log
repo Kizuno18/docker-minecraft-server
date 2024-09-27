@@ -1,0 +1,529 @@
+[28Sep2024 00:08:19.312] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[28Sep2024 00:08:19.320] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.2 by Oracle Corporation; OS Linux arch amd64 version 5.15.153.1-microsoft-standard-WSL2
+[28Sep2024 00:08:27.736] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[28Sep2024 00:08:27.746] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirector CoreMod initialized successfully!
+[28Sep2024 00:08:27.828] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/mcserver/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[28Sep2024 00:08:30.055] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mcserver/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.10/fmlcore-1.20.1-47.3.10.jar is missing mods.toml file
+[28Sep2024 00:08:30.071] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mcserver/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.10/javafmllanguage-1.20.1-47.3.10.jar is missing mods.toml file
+[28Sep2024 00:08:30.086] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mcserver/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.10/lowcodelanguage-1.20.1-47.3.10.jar is missing mods.toml file
+[28Sep2024 00:08:30.102] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /mcserver/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.10/mclanguage-1.20.1-47.3.10.jar is missing mods.toml file
+[28Sep2024 00:08:32.206] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[28Sep2024 00:08:32.208] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /mcserver/mods/geckolib-forge-1.20.1-4.4.9.jar
+[28Sep2024 00:08:32.209] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 42 dependencies adding them to mods collection
+[28Sep2024 00:08:56.721] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[28Sep2024 00:08:56.854] [main/ERROR] [mixin/]: Mixin config pirates_treasures.mixins.json does not specify "minVersion" property
+[28Sep2024 00:08:57.295] [main/ERROR] [mixin/]: Mixin config offhandcombat-common.mixins.json does not specify "minVersion" property
+[28Sep2024 00:08:57.300] [main/ERROR] [mixin/]: Mixin config offhandcombat.mixins.json does not specify "minVersion" property
+[28Sep2024 00:08:57.778] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[28Sep2024 00:08:57.782] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[28Sep2024 00:08:57.809] [main/INFO] [com.abdelaziz.saturn.common.Saturn/]: Loaded Saturn config file with 4 configurable options
+[28Sep2024 00:08:57.982] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.19.4+mc1.20.1: 84 options available, 1 override(s) found
+[28Sep2024 00:08:57.983] [main/WARN] [ModernFix/]: Option 'mixin.perf.thread_priorities' overriden (by mods [smoothboot]) to 'false'
+[28Sep2024 00:08:57.983] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[28Sep2024 00:08:58.005] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[28Sep2024 00:08:58.064] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 290 options available, 0 override(s) found
+[28Sep2024 00:08:58.069] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/embeddedt/embeddium_integrity/MixinTaintDetector$EnforceLevel
+[28Sep2024 00:08:58.174] [main/WARN] [mixin/]: Reference map 'jeitweaker.refmap.json' for jeitweaker.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Sep2024 00:08:58.178] [main/WARN] [mixin/]: Reference map 'jeitweaker.refmap.json' for jeitweaker.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Sep2024 00:08:58.235] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/illusivesoulworks/polymorph/common/integration/PolymorphIntegrations$Mod
+[28Sep2024 00:08:58.238] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/illusivesoulworks/polymorph/common/integration/PolymorphIntegrations$Loader
+[28Sep2024 00:08:58.315] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting fuzs/puzzleslib/api/core/v1/ModLoader
+[28Sep2024 00:08:58.330] [main/INFO] [Puzzles Lib/]: Loading 245 mods:
+	- achiopt 1.0.5
+	- ad_astra 1.15.18
+	- ad_astra_giselle_addon 6.15
+	- adaptive_performance_tweaks 11.1.0
+	- adaptive_performance_tweaks_core 11.1.0
+	- adaptive_performance_tweaks_gamerules 11.1.0
+	- adaptive_performance_tweaks_items 11.1.0
+	- adaptive_performance_tweaks_player 11.1.0
+	- adaptive_performance_tweaks_spawn 11.1.0
+	- ae2 15.2.13
+	- aiimprovements 0.5.2
+	- alexscaves 1.1.5
+	- alexsdelight 1.5
+	- alexsmobs 1.22.9
+	- apotheosis 7.4.3
+	- apothiccurios 1.0.3d
+	- appleskin 2.5.1+mc1.20.1
+	- aquaculture 2.5.2
+	- aquaculturedelight 1.0.0
+	- aquamirae 6.API15
+	- aquamirae_delight 1.4.6
+	- aquatictorches 1.1.1
+	- architectury 9.2.14
+	- armorplus 1.20.1-20.0.2
+	- ars_nouveau 4.12.4
+	- attributefix 21.0.4
+	- attributeslib 1.3.7
+	- awesomedungeonocean 3.3.0
+	- balm 7.3.9
+		\-- kuma_api 20.1.8
+	- batsgalore 1.2.3
+	- beautifiedchatserver 2.6
+	- bedbenefits 13.0.3
+	- benssharks 1.2.4.9
+	- betteradvancements 0.4.2.10
+	- betterburning 9.0.2
+	- betterchunkloading 1.20.1-4.5
+	- betterfpsdist 1.20.1-6.0
+	- betteroceanmonuments 1.20-Forge-3.0.4
+	- betterthirdperson 1.9.0
+	- biomancy 2.8.13.1
+	- bloodandmadness 2.0
+	- bloodmagic 3.3.3-45
+	- blueprint 7.1.0
+	- bonsaitrees3 3.3.2
+	- bookshelf 20.2.13
+	- botarium 2.3.4
+	- bunker_down 1.1.6
+	- caelus 3.2.0+1.20.1
+	- carryon 2.1.2.7
+	- cave_dweller 1.7.0
+	- chunksending 1.20.1-2.8
+	- citadel 2.6.0
+	- clumps 12.0.0.4
+	- codechickenlib 4.4.0.516
+	- cofh_core 11.0.2
+	- collective 7.84
+	- connectivity 1.20.1-5.6
+	- constructionwand 1.20.1-2.11
+	- controlling 12.0.2
+	- corgilib 4.0.3.2
+	- coroutil 1.20.1-1.3.7
+	- cosmeticarmorreworked 1.20.1-v1a
+	- craftingstation 1.20.1-1.2.3
+	- crafttweaker 14.0.43
+	- create 0.5.1.h
+		\-- flywheel 0.6.11-13
+	- create_jetpack 4.3.2
+		\-- flightlib 2.1.0
+	- create_mechanical_spawner 1.20.1-0.0.17.h-48
+	- createaddition 1.20.1-1.2.4e
+	- createarmory 0.5
+	- createbigcannons 5.5.1+mc.1.20.1-forge
+		\-- ritchiesprojectilelib 2.0.0-dev+mc.1.20.1-forge-build.182
+	- creativecore 2.12.15
+	- cupboard 1.20.1-2.7
+	- curios 5.10.0+1.20.1
+	- cyclic 1.12.12
+	- darkutils 17.0.5
+	- deathbackup 3.4
+	- decorative_blocks 4.1.3
+	- deuf 1.20.1-1.3
+	- dimensionalsycnfixes 1.20.1-0.0.1
+	- divinerpg 1.10.7.5
+	- dungeons_arise 2.1.58-1.20.x
+	- dungeons_arise_seven_seas 1.0.2
+	- embeddium 0.3.31+mc1.20.1
+		\-- rubidium 0.7.1
+	- enchdesc 17.1.18
+	- enderio 6.1.10-beta
+	- enderstorage 2.11.0.188
+	- enhancedcelestials 1.20.1-5.0.1.0
+	- enhancedvisuals 1.8.1
+	- entityculling 1.7.0
+	- excompressum 20.1.6
+	- exdeorum 1.40
+	- exmachinis 3.0.0
+	- exnihilosequentia 5.0.0
+	- farmersdelight 1.20.1-1.2.4
+	- fastasyncworldsave 1.20.1-2.0
+	- fastbench 8.0.4
+	- fastfurnace 8.0.2
+	- fastleafdecay 32
+	- fastload 3.4.0
+	- fastsuite 5.0.1
+	- ferritecore 6.0.1
+	- flib 0.0.14
+	- forbidden_arcanus 1.20.1-2.2.6
+	- forge 47.3.10
+	- fpsreducer 1.20-2.5
+	- framework 0.7.8
+	- friendlyfire 18.0.7
+	- ftbbackups2 1.0.23
+	- ftbessentials 2001.2.2
+	- ftblibrary 2001.2.4
+	- ftbultimine 2001.1.5
+	- gateways 4.2.6
+	- geckolib 4.4.9
+	- gpumemleakfix 1.20.1-1.8
+	- grimoireofgaia 4.0.0-alpha.11
+	- iaf_patcher 0.2
+	- iceandfire 2.1.13-1.20.1
+	- immediatelyfast 1.2.21+1.20.4
+		\-- mixinextras 0.3.6
+	- inventoryhud 3.4.26
+	- ironfurnaces 4.1.6
+	- irons_spellbooks 1.20.1-3.4.0.1
+	- itemproductionlib 1.0.2a
+	- jade 11.11.1+forge
+	- jadeaddons 5.3.1+forge
+	- jei 15.19.5.99
+	- jeiintegration 10.0.0
+	- jeitweaker 8.0.6
+	- jeresources 1.4.0.247
+	- kotlinforforge 4.11.0
+	- krypton 0.2.3
+	- leaky 1.20.1-2.1
+	- leavesbegone 8.0.0
+	- libnonymous 2.3.1
+	- libraryferret 4.0.0
+	- limitedchunks 1.8
+	- lostcities 1.20-7.3.2
+	- majruszlibrary 7.0.8
+	- majruszsenchantments 1.10.8
+	- map_atlases 1.20-6.0.9
+	- maxhealthfix 12.0.3
+	- mcjtylib 1.20-8.0.6
+	- mekanism 10.4.9
+	- mekanismgenerators 10.4.9
+	- memorysettings 1.20.1-5.5
+	- mffs 5.1.9
+	- minecraft 1.20.1
+	- mob_grinding_utils 1.20.1-1.1.0
+	- modernfix 5.19.4+mc1.20.1
+	- moonlight 1.20-2.13.0
+	- morebows 1.0.13
+	- mousetweaks 2.25.1
+	- mowziesmobs 1.6.4
+	- novacore 1.0.0
+	- obscure_api 15
+	- observable 4.4.1
+	- ocean_recovery 1.0.0
+	- oceansdelight 1.0.2-1.20
+	- offhandcombat 2.0.0
+	- oldguns 1.20.1-3.9.1-50
+	- packetfixer 1.4.2
+	- passiveskilltreeadditions 1.1.1
+	- patchouli 1.20.1-84-FORGE
+	- pigpen 15.0.2
+	- pirates_treasures 1.0.0
+	- placebo 8.6.2
+	- playeranimator 1.0.2-rc1+1.20
+	- polylib 2000.0.3-build.143
+	- polymorph 0.49.5+1.20.1
+		\-- spectrelib 0.13.15+1.20.1
+	- puzzleslib 8.1.23
+		\-- puzzlesaccessapi 8.0.7
+	- quark 4.0-460
+	- recipeessentials 1.20.1-3.6
+	- recruits 1.12.1
+	- refinedstorage 1.12.4
+	- refurbished_furniture 1.0.6
+	- reliquary 1.20.1-2.0.41.1229
+	- resourcefulconfig 2.1.2
+	- resourcefullib 2.1.29
+	- rftoolsbase 1.20-5.0.5
+	- rftoolsstorage 1.20-5.0.3
+	- runelic 18.0.2
+	- saturn 0.1.3
+	- scalinghealth 8.0.2+9
+	- scguns 0.3.2.5
+	- scuba_gear 1.0.6
+	- seadwellers 2.9.9
+	- searchables 1.0.3
+	- securitycraft 1.9.10
+	- sereneseasonfix 1.20.1-1.0.8
+	- sereneseasons 9.0.0.46
+	- servertabinfo 1.3.8
+	- silentlib 8.0.0
+	- simplebackups 1.20.1-3.1.7
+	- skilltree 0.6.14a
+	- skinrestorer 2.1.0+1.20-forge
+	- smartbrainlib 1.15
+	- smoothboot 0.0.4
+	- smoothchunk 1.20.1-3.6
+	- sophisticatedbackpacks 3.20.9.1103
+	- sophisticatedcore 0.6.29.697
+	- soulbinding 1.20.1-1.0.2
+	- soulbound 1.0.0
+	- sound_physics_remastered 1.20.1-1.4.5
+	- spark 1.10.53
+	- spartanfire 2.1.0
+	- spartanshields 3.1.1
+	- spartantoolkit 1.5.1
+	- spartanweaponry 3.1.3
+	- stackrefill 4.5
+	- storagedrawers 12.7.2
+	- structureessentials 1.20.1-3.4
+	- survivalisland 0.2.1
+	- tan__a_curios_expansion 1.2.1
+	- taxoa 1.0.0
+	- taxop 1.0.0
+	- taxov 3.1.2
+	- terrablender 3.0.1.7
+	- thedragonlib 1.20.1-1.0.0
+	- thermal_foundation 11.0.6
+		\-- thermal 11.0.6
+	- toofast 0.4.3.5
+	- tough_as_nails_compat 1.0.5
+	- toughasnails 0.0NONE
+	- toughastweaked 1.0.2
+	- treeharvester 9.1
+	- upgrade_aquatic 6.0.1
+	- valhelsia_core 1.1.2
+	- valkyrienrelogs 0.1.3-forge
+	- valkyrienskies 2.3.0-beta.5
+		\-- cloth_config 11.1.106
+	- variantsandventures 1.0.6
+	- voicechat 1.20.1-2.5.22
+	- vs_clockwork 1.20.1-0.1.16-forge-b3b22e39fe
+	- vs_eureka 1.5.1-beta.3
+	- waystones 14.1.5
+	- weather2 1.20.1-2.8.3
+	- xpbook 2.2.1
+	- yungsapi 1.20-Forge-4.0.5
+	- zeta 1.0-24
+[28Sep2024 00:08:58.350] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting com/llamalad7/mixinextras/service/MixinExtrasVersion
+[28Sep2024 00:08:58.432] [main/WARN] [mixin/]: Reference map 'Aquamirae.refmap.json' for aquamirae.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Sep2024 00:08:58.436] [main/WARN] [mixin/]: Reference map 'mixins.aquamirae_delight.refmap.json' for mixins.aquamirae_delight.json could not be read. If this is a development environment you can ignore this message
+[28Sep2024 00:08:58.490] [main/WARN] [mixin/]: Reference map 'eureka-1201-forge-refmap.json' for vs_eureka.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Sep2024 00:08:58.527] [main/WARN] [mixin/]: Reference map 'AchievementOptimizer.refmap.json' for achiopt.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Sep2024 00:08:58.561] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
+[28Sep2024 00:08:58.565] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
+[28Sep2024 00:08:58.690] [main/WARN] [mixin/]: Reference map 'limitedchunks.refmap.json' for limitedchunks.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Sep2024 00:08:58.711] [main/WARN] [mixin/]: Reference map 'create_mechanical_spawner.refmap.json' for create_mechanical_spawner.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Sep2024 00:08:58.739] [main/WARN] [mixin/]: Reference map 'bloodmagic.refmap.json' for bloodmagic.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Sep2024 00:08:58.797] [main/WARN] [mixin/]: Reference map 'toughastweaks.refmap.json' for toughastweaked.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Sep2024 00:08:58.803] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Sep2024 00:08:58.820] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting malte0811/ferritecore/mixin/config/FerriteMixinConfig$LithiumSupportState
+[28Sep2024 00:08:58.886] [main/WARN] [mixin/]: Reference map 'packetfixer-forge-forge-refmap.json' for packetfixer-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[28Sep2024 00:08:59.709] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[28Sep2024 00:08:59.728] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[28Sep2024 00:08:59.735] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[28Sep2024 00:08:59.765] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[28Sep2024 00:08:59.767] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[28Sep2024 00:08:59.820] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER
+[28Sep2024 00:08:59.821] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/TitleScreen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/TitleScreen for invalid dist DEDICATED_SERVER)
+[28Sep2024 00:08:59.822] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.TitleScreen was not found iaf_patcher.mixins.json:TitleScreenMixin
+[28Sep2024 00:08:59.936] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
+[28Sep2024 00:09:00.153] [main/WARN] [mixin/]: Error loading class: xfacthd/framedblocks/common/blockentity/doubled/FramedAdjustableDoubleBlockEntity (java.lang.ClassNotFoundException: xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity)
+[28Sep2024 00:09:00.159] [main/WARN] [mixin/]: @Mixin target xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity was not found createbigcannons.mixins.json:compat.FramedAdjustableDoubleBlockEntityAccessor
+[28Sep2024 00:09:00.249] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER
+[28Sep2024 00:09:00.250] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/multiplayer/MultiPlayerGameMode (java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/MultiPlayerGameMode for invalid dist DEDICATED_SERVER)
+[28Sep2024 00:09:00.251] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.multiplayer.MultiPlayerGameMode was not found mixins.cofhcore.json:MultiPlayerGameModeMixin
+[28Sep2024 00:09:00.298] [main/WARN] [mixin/]: Error loading class: tfar/davespotioneering/blockentity/AdvancedBrewingStandBlockEntity (java.lang.ClassNotFoundException: tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity)
+[28Sep2024 00:09:00.298] [main/WARN] [mixin/]: @Mixin target tfar.davespotioneering.blockentity.AdvancedBrewingStandBlockEntity was not found itemproductionlib.mixins.json:davespotioneering/AdvancedBrewingStandBlockEntityMixin
+[28Sep2024 00:09:00.305] [main/WARN] [mixin/]: Error loading class: fuzs/visualworkbench/world/inventory/ModCraftingMenu (java.lang.ClassNotFoundException: fuzs.visualworkbench.world.inventory.ModCraftingMenu)
+[28Sep2024 00:09:00.305] [main/WARN] [mixin/]: @Mixin target fuzs.visualworkbench.world.inventory.ModCraftingMenu was not found itemproductionlib.mixins.json:visualworkbench/ModCraftingMenuMixin
+[28Sep2024 00:09:00.508] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting org/valkyrienskies/mod/compat/VSRenderer
+[28Sep2024 00:09:00.803] [main/WARN] [mixin/]: Error loading class: com/jamieswhiteshirt/reachentityattributes/ReachEntityAttributes (java.lang.ClassNotFoundException: com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes)
+[28Sep2024 00:09:00.840] [main/WARN] [mixin/]: Error loading class: blusunrize/immersiveengineering/common/gui/BlockEntityInventory (java.lang.ClassNotFoundException: blusunrize.immersiveengineering.common.gui.BlockEntityInventory)
+[28Sep2024 00:09:00.845] [main/WARN] [mixin/]: Error loading class: net/dries007/tfc/world/TFCChunkGenerator (java.lang.ClassNotFoundException: net.dries007.tfc.world.TFCChunkGenerator)
+[28Sep2024 00:09:00.861] [main/WARN] [mixin/]: Error loading class: cofh/core/block/entity/TileCoFH (java.lang.ClassNotFoundException: cofh.core.block.entity.TileCoFH)
+[28Sep2024 00:09:00.867] [main/WARN] [mixin/]: Error loading class: li/cil/tis3d/common/entity/InfraredPacketEntity (java.lang.ClassNotFoundException: li.cil.tis3d.common.entity.InfraredPacketEntity)
+[28Sep2024 00:09:00.872] [main/WARN] [mixin/]: Error loading class: me/desht/modularrouters/container/RouterMenu (java.lang.ClassNotFoundException: me.desht.modularrouters.container.RouterMenu)
+[28Sep2024 00:09:00.920] [main/WARN] [mixin/]: Error loading class: me/desht/pneumaticcraft/common/upgrades/PNCUpgradeImpl (java.lang.ClassNotFoundException: me.desht.pneumaticcraft.common.upgrades.PNCUpgradeImpl)
+[28Sep2024 00:09:00.921] [main/WARN] [mixin/]: @Mixin target me.desht.pneumaticcraft.common.upgrades.PNCUpgradeImpl was not found ad_astra_giselle_addon.mixin.forge.common.json:pneumaticcraft.PNCUpgradeImplInject
+[28Sep2024 00:09:00.938] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: recipeessentials.json
+[28Sep2024 00:09:00.984] [main/WARN] [mixin/]: Error loading class: com/tiviacz/travelersbackpack/util/BackpackUtils (java.lang.ClassNotFoundException: com.tiviacz.travelersbackpack.util.BackpackUtils)
+[28Sep2024 00:09:00.985] [main/WARN] [mixin/]: @Mixin target com.tiviacz.travelersbackpack.util.BackpackUtils was not found soulbound.mixins.json:BackpackUtilsMixin
+[28Sep2024 00:09:00.997] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[28Sep2024 00:09:01.633] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[28Sep2024 00:09:01.635] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[28Sep2024 00:09:01.772] [main/WARN] [mixin/]: Error loading class: fuzs/easymagic/world/inventory/ModEnchantmentMenu (java.lang.ClassNotFoundException: fuzs.easymagic.world.inventory.ModEnchantmentMenu)
+[28Sep2024 00:09:01.773] [main/WARN] [mixin/]: @Mixin target fuzs.easymagic.world.inventory.ModEnchantmentMenu was not found skilltree.mixins.json:easymagic/ModEnchantmentMenuMixin
+[28Sep2024 00:09:01.995] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[28Sep2024 00:09:02.023] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[28Sep2024 00:09:02.024] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTreasureOnly() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[28Sep2024 00:09:02.025] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isTradeable() in net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+[28Sep2024 00:09:02.108] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[28Sep2024 00:09:02.118] [main/WARN] [mixin/]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
+[28Sep2024 00:09:02.121] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/CraftingScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.CraftingScreen)
+[28Sep2024 00:09:02.122] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.CraftingScreen was not found fastbench.mixins.json:MixinCraftingScreen
+[28Sep2024 00:09:02.258] [main/WARN] [dev.tonimatas.packetfixer.mixins.MixinConfigPlugin/]: You are using connectivity for fix "Badly compressed packet - size of " + X + " is larger than protocol maximum of 8388608" if you have and issue with that delete connectivity.
+[28Sep2024 00:09:02.567] [main/ERROR] [mixin/]: valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
+org.spongepowered.asm.mixin.transformer.throwables.InvalidInterfaceMixinException: Interface mixin contains a non-public method! Found includeShipsInDistanceCheck(Lnet/minecraft/world/entity/player/Player;DDD)D in valkyrienskies-common.mixins.json:feature.container_distance_check.MixinContainer
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorInterface.prepareMethod(MixinPreProcessorInterface.java:65) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepare(MixinPreProcessorStandard.java:187) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:322) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.validate(MixinInfo.java:913) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:801) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:567) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar%2365!/:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar%2355!/:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:632) ~[?:?]
+	at java.lang.Class.forName(Class.java:545) ~[?:?]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.lambda$updateModuleReads$1(ImmediateWindowHandler.java:145) ~[fmlloader-1.20.1-47.3.10.jar%2369!/:1.0]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler$DummyProvider.updateModuleReads(ImmediateWindowHandler.java:145) ~[fmlloader-1.20.1-47.3.10.jar%2369!/:1.0]
+	at net.minecraftforge.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:71) ~[fmlloader-1.20.1-47.3.10.jar%2369!/:1.0]
+	at net.minecraftforge.fml.loading.FMLLoader.beforeStart(FMLLoader.java:207) ~[fmlloader-1.20.1-47.3.10.jar%2369!/:1.0]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:92) ~[fmlloader-1.20.1-47.3.10.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[28Sep2024 00:09:02.762] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[28Sep2024 00:09:03.482] [main/INFO] [Smooth Boot (Reloaded)/]: Smooth Boot (Reloaded) config initialized
+[28Sep2024 00:09:03.536] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/Unit
+[28Sep2024 00:09:03.608] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/ChatFormatting
+[28Sep2024 00:09:04.283] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (49.00 s after launch)
+[28Sep2024 00:09:04.497] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/Util$IdentityStrategy
+[28Sep2024 00:09:04.564] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Reference$Type
+[28Sep2024 00:09:04.687] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[28Sep2024 00:09:04.689] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[28Sep2024 00:09:08.031] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/item/CreativeModeTabs
+[28Sep2024 00:09:08.096] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction
+[28Sep2024 00:09:08.100] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$AxisDirection
+[28Sep2024 00:09:08.102] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Axis
+[28Sep2024 00:09:08.212] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Direction$Plane
+[28Sep2024 00:09:08.215] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/FrontAndTop
+[28Sep2024 00:09:08.222] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/AttachFace
+[28Sep2024 00:09:08.224] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BellAttachType
+[28Sep2024 00:09:08.225] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/WallSide
+[28Sep2024 00:09:08.227] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RedstoneSide
+[28Sep2024 00:09:08.229] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoubleBlockHalf
+[28Sep2024 00:09:08.230] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Half
+[28Sep2024 00:09:08.232] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/RailShape
+[28Sep2024 00:09:08.237] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BedPart
+[28Sep2024 00:09:08.239] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ChestType
+[28Sep2024 00:09:08.241] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/ComparatorMode
+[28Sep2024 00:09:08.243] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DoorHingeSide
+[28Sep2024 00:09:08.245] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument
+[28Sep2024 00:09:08.305] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/NoteBlockInstrument$Type
+[28Sep2024 00:09:08.307] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/PistonType
+[28Sep2024 00:09:08.309] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SlabType
+[28Sep2024 00:09:08.312] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StairsShape
+[28Sep2024 00:09:08.314] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/StructureMode
+[28Sep2024 00:09:08.316] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/BambooLeaves
+[28Sep2024 00:09:08.318] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/Tilt
+[28Sep2024 00:09:08.320] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/DripstoneThickness
+[28Sep2024 00:09:08.323] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/properties/SculkSensorPhase
+[28Sep2024 00:09:08.508] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in org/violetmoon/quark/content/experimental/module/GameNerfsModule
+[28Sep2024 00:09:09.158] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/material/PushReaction
+[28Sep2024 00:09:09.338] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/state/BlockBehaviour$OffsetType
+[28Sep2024 00:09:09.340] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/pathfinder/PathComputationType
+[28Sep2024 00:09:09.350] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 5058 milliseconds
+[28Sep2024 00:09:09.473] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraftforge/network/NetworkDirection
+[28Sep2024 00:09:09.532] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping connectivity.mixins.json:ClientBoundCustomPayloadPacketLMixin->@ModifyConstant::modifyLimit(I)I with priority 1, already redirected by packetfixer-common.mixins.json:ClientboundCustomPayloadPacketMixin->@ModifyConstant::newSize(I)I with priority 9999
+[28Sep2024 00:09:09.532] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping connectivity.mixins.json:ClientBoundCustomPayloadPacketLMixin->@ModifyConstant::modifyLimit(I)I with priority 1, already redirected by packetfixer-common.mixins.json:ClientboundCustomPayloadPacketMixin->@ModifyConstant::newSize(I)I with priority 9999
+[28Sep2024 00:09:09.619] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/DyeColor
+[28Sep2024 00:09:09.623] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/util/ByIdMap$OutOfBoundsStrategy
+[28Sep2024 00:09:10.034] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/effect/MobEffectCategory
+[28Sep2024 00:09:10.061] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/attributes/AttributeModifier$Operation
+[28Sep2024 00:09:10.469] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 5 calls to Enchantment#getMaxLevel() in org/violetmoon/quark/content/tools/module/AncientTomesModule
+[28Sep2024 00:09:10.575] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[28Sep2024 00:09:10.576] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[28Sep2024 00:09:10.592] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/PressurePlateBlock$Sensitivity
+[28Sep2024 00:09:10.816] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/MultifaceSpreader$SpreadType
+[28Sep2024 00:09:10.873] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionHand
+[28Sep2024 00:09:10.874] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/InteractionResult
+[28Sep2024 00:09:10.877] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$Precipitation
+[28Sep2024 00:09:10.923] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/SkullBlock$Types
+[28Sep2024 00:09:10.962] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 2 calls to Enchantment#getMaxLevel() in net/minecraft/world/inventory/AnvilMenu
+[28Sep2024 00:09:11.398] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/block/WeatheringCopper$WeatherState
+[28Sep2024 00:09:11.819] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Rarity
+[28Sep2024 00:09:11.943] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/AbstractMinecart$Type
+[28Sep2024 00:09:12.020] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/MobCategory
+[28Sep2024 00:09:12.646] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/ai/goal/Goal$Flag
+[28Sep2024 00:09:13.204] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/Pose
+[28Sep2024 00:09:13.207] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/animal/sniffer/Sniffer$State
+[28Sep2024 00:09:13.215] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot
+[28Sep2024 00:09:13.217] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/EquipmentSlot$Type
+[28Sep2024 00:09:13.346] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$bon000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[28Sep2024 00:09:13.578] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Patching FishingHook#catchingFish
+[28Sep2024 00:09:13.597] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ArmorItem$Type
+[28Sep2024 00:09:13.603] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/entity/vehicle/Boat$Type
+[28Sep2024 00:09:13.607] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/ArmorMaterials
+[28Sep2024 00:09:13.646] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/Tiers
+[28Sep2024 00:09:13.740] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/network/protocol/game/ClientboundPlayerInfoUpdatePacket$Action
+[28Sep2024 00:09:13.922] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/Enchantment$Rarity
+[28Sep2024 00:09:13.923] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/ProtectionEnchantment$Type
+[28Sep2024 00:09:13.925] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/enchantment/EnchantmentCategory
+[28Sep2024 00:09:13.983] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/scores/criteria/ObjectiveCriteria$RenderType
+[28Sep2024 00:09:13.987] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Types
+[28Sep2024 00:09:13.994] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/Heightmap$Usage
+[28Sep2024 00:09:14.011] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/chunk/ChunkStatus$ChunkType
+[28Sep2024 00:09:14.205] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/crafting/CraftingBookCategory
+[28Sep2024 00:09:14.248] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/crafting/CookingBookCategory
+[28Sep2024 00:09:14.460] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#getMaxLevel() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[28Sep2024 00:09:14.461] [main/INFO] [net.minecraftforge.coremod.CoreMod.apotheosis/COREMODLOG]: Replaced 1 calls to Enchantment#isDiscoverable() in net/minecraft/world/level/storage/loot/functions/EnchantRandomlyFunction
+[28Sep2024 00:09:14.637] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/core/Holder$Kind
+[28Sep2024 00:09:14.958] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/placement/CaveSurface
+[28Sep2024 00:09:15.064] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/StructurePlacement$FrequencyReductionMethod
+[28Sep2024 00:09:15.078] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/placement/RandomSpreadType
+[28Sep2024 00:09:15.220] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/StructureSpawnOverride$BoundingBoxType
+[28Sep2024 00:09:15.232] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Decoration
+[28Sep2024 00:09:15.234] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/TerrainAdjustment
+[28Sep2024 00:09:15.258] [main/INFO] [net.minecraftforge.coremod.CoreMod.exdeorum/COREMODLOG]: Successfully patched End City generation for void worlds
+[28Sep2024 00:09:15.292] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/MineshaftStructure$Type
+[28Sep2024 00:09:15.303] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/OceanRuinStructure$Type
+[28Sep2024 00:09:15.309] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/structures/RuinedPortalPiece$VerticalPlacement
+[28Sep2024 00:09:15.360] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/GenerationStep$Carving
+[28Sep2024 00:09:15.446] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[28Sep2024 00:09:15.449] [main/WARN] [mixin/]: Method overwrite conflict for m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin, previously written by com.abdelaziz.saturn.mixin.leaks.biome_temperature_cache.BiomeMixin. Skipping method.
+[28Sep2024 00:09:15.472] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/Biome$TemperatureModifier
+[28Sep2024 00:09:15.481] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/biome/BiomeSpecialEffects$GrassColorModifier
+[28Sep2024 00:09:15.707] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Temperature
+[28Sep2024 00:09:15.710] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Steep
+[28Sep2024 00:09:15.714] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Hole
+[28Sep2024 00:09:15.715] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$AbovePreliminarySurface
+[28Sep2024 00:09:15.717] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/SurfaceRules$Bandlands
+[28Sep2024 00:09:15.729] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendAlpha
+[28Sep2024 00:09:15.731] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BlendOffset
+[28Sep2024 00:09:15.733] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$BeardifierMarker
+[28Sep2024 00:09:15.739] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Marker$Type
+[28Sep2024 00:09:15.758] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$WeirdScaledSampler$RarityValueMapper
+[28Sep2024 00:09:15.783] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$Mapped$Type
+[28Sep2024 00:09:15.787] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/DensityFunctions$TwoArgumentSimpleFunction$Type
+[28Sep2024 00:09:15.822] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/level/levelgen/structure/pools/StructureTemplatePool$Projection
+[28Sep2024 00:09:15.836] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/CreativeModeTab$Row
+[28Sep2024 00:09:15.841] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting net/minecraft/world/item/CreativeModeTab$Type
+[28Sep2024 00:09:16.060] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/TerminalStyle
+[28Sep2024 00:09:16.062] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/PowerUnits
+[28Sep2024 00:09:16.065] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/networking/pathing/ChannelMode
+[28Sep2024 00:09:16.115] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/core/settings/TickRates
+[28Sep2024 00:09:16.128] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/PowerMultiplier
+[28Sep2024 00:09:16.158] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/CondenserOutput
+[28Sep2024 00:09:16.179] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/networking/pathing/ControllerState
+[28Sep2024 00:09:16.181] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/me/service/AdHocNetworkError
+[28Sep2024 00:09:16.186] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/Actionable
+[28Sep2024 00:09:16.210] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/networking/crafting/CalculationStrategy
+[28Sep2024 00:09:16.260] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/core/stats/AeStats
+[28Sep2024 00:09:16.402] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/util/AEColor
+[28Sep2024 00:09:16.405] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/items/tools/quartz/QuartzToolType
+[28Sep2024 00:09:16.419] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/core/localization/GuiText
+[28Sep2024 00:09:16.465] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/items/tools/fluix/FluixToolType
+[28Sep2024 00:09:16.482] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/SortOrder
+[28Sep2024 00:09:16.484] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/ViewItems
+[28Sep2024 00:09:16.485] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/TypeFilter
+[28Sep2024 00:09:16.487] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/SortDir
+[28Sep2024 00:09:16.671] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/block/storage/SkyChestBlock$SkyChestType
+[28Sep2024 00:09:16.690] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/block/networking/WirelessAccessPointBlock$State
+[28Sep2024 00:09:16.711] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/block/networking/ControllerBlock$ControllerBlockState
+[28Sep2024 00:09:16.712] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/block/networking/ControllerBlock$ControllerRenderType
+[28Sep2024 00:09:16.745] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/block/crafting/CraftingUnitType
+[28Sep2024 00:09:16.754] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/block/crafting/PushDirection
+[28Sep2024 00:09:16.822] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/networking/IGridNodeListener$State
+[28Sep2024 00:09:16.823] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/util/AECableType
+[28Sep2024 00:09:16.826] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/parts/BusSupport
+[28Sep2024 00:09:16.828] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/util/SettingsFrom
+[28Sep2024 00:09:16.862] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/AccessRestriction
+[28Sep2024 00:09:16.864] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/FuzzyMode
+[28Sep2024 00:09:16.866] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/StorageFilter
+[28Sep2024 00:09:16.867] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/YesNo
+[28Sep2024 00:09:16.874] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/parts/storagebus/StorageBusPart$PendingUpdateStatus
+[28Sep2024 00:09:16.878] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/networking/ticking/TickRateModulation
+[28Sep2024 00:09:16.881] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/RedstoneMode
+[28Sep2024 00:09:16.888] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/SchedulingMode
+[28Sep2024 00:09:16.909] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/IncludeExclude
+[28Sep2024 00:09:16.941] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/api/config/ShowPatternProviders
+[28Sep2024 00:09:16.964] [main/INFO] [com.teampotato.redirector.Redirector/]: Redirecting appeng/parts/p2p/MEP2PTunnelPart$ConnectionUpdate

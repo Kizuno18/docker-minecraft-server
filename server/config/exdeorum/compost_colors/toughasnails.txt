@@ -1,0 +1,23 @@
+// Compost colors for toughasnails. You may add your own colors, change existing ones, or remove colors that aren't needed.
+apple_juice, #f5f2d6
+cactus_juice, #bce1bc
+chorus_fruit_juice, #d2c3ff
+dirty_water_bottle, #9eb4be
+dirty_water_canteen, #c26640
+empty_canteen, #bc5b36
+glow_berry_juice, #feffb1
+leaf_boots, #aba8ab
+leaf_chestplate, #afacaf
+leaf_helmet, #a7a4a7
+leaf_leggings, #acaaac
+melon_juice, #f5b6ca
+pumpkin_juice, #f2d3ca
+purified_water_bottle, #94d9fb
+purified_water_canteen, #c06c47
+sweet_berry_juice, #c590af
+tan_icon, #878787
+water_canteen, #c06646
+wool_boots, #696969
+wool_chestplate, #a2a2a2
+wool_helmet, #515151
+wool_leggings, #767676

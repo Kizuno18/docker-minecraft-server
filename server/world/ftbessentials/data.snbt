@@ -1,0 +1,7 @@
+{
+	warps: {
+		plains: { dim: "minecraft:overworld", x: 3687, y: 64, z: 4280, time: 1727377489910L, xRot: 13.800005f, yRot: -111.73416f }
+	}
+	mute_timeouts: { }
+	kits: { }
+}
