@@ -2,8 +2,7 @@ services:
   minecraft-server:
     build: .
     container_name: minecraft-server
-    ports:
-      - "25565:25565"
+    network_mode: "host"  # Usa a rede do host para acessar todas as portas diretamente
     volumes:
       - "./server:/mcserver"
     stdin_open: true
@@ -12,8 +11,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '2.0'          # Limita o container a usar até 2 CPUs
-          memory: 6G           # Limita o uso máximo de memória a 6 GB
+          cpus: "10.0"
+          memory: 12G  # Limita o uso máximo de memória a 12 GB
     # GPU support (for Docker runtime nvidia)
     runtime: nvidia
     environment:

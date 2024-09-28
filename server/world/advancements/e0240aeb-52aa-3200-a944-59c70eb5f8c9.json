@@ -1,4 +1,28 @@
 {
+  "vs_eureka:recipes/balloon_color": {
+    "criteria": {
+      "has_light_blue_recipe": "2024-09-28 00:13:08 +0000"
+    },
+    "done": true
+  },
+  "mffs:grant_book_on_first_join": {
+    "criteria": {
+      "guidebook": "2024-09-28 00:13:08 +0000"
+    },
+    "done": true
+  },
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2024-09-28 00:13:08 +0000"
+    },
+    "done": true
+  },
+  "biomancy:biomancy/craft_primal_core": {
+    "criteria": {
+      "has_unlocked_recipe": "2024-09-28 00:13:08 +0000"
+    },
+    "done": true
+  },
   "iceandfire:iceandfire/root": {
     "criteria": {
       "tick": "2024-09-28 00:13:09 +0000"
@@ -17,12 +41,6 @@
     },
     "done": true
   },
-  "vs_eureka:recipes/balloon_color": {
-    "criteria": {
-      "has_light_blue_recipe": "2024-09-28 00:13:08 +0000"
-    },
-    "done": true
-  },
   "dungeons_arise:wda_root": {
     "criteria": {
       "WDA": "2024-09-28 00:13:09 +0000"
@@ -35,9 +53,78 @@
     },
     "done": true
   },
-  "mffs:grant_book_on_first_join": {
+  "seavil:setup_ocean": {
     "criteria": {
-      "guidebook": "2024-09-28 00:13:08 +0000"
+      "tick": "2024-09-28 00:13:09 +0000"
+    },
+    "done": true
+  },
+  "divinerpg:overworld/patchouli": {
+    "criteria": {
+      "tick": "2024-09-28 00:13:09 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2024-09-28 00:13:09 +0000"
+    },
+    "done": true
+  },
+  "grimoireofgaia:main/root": {
+    "criteria": {
+      "join": "2024-09-28 00:13:09 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:give_book": {
+    "criteria": {
+      "tick": "2024-09-28 00:13:09 +0000"
+    },
+    "done": true
+  },
+  "seadwellers:adv_root": {
+    "criteria": {
+      "adv_root": "2024-09-28 00:13:09 +0000"
+    },
+    "done": true
+  },
+  "global:root": {
+    "criteria": {
+      "trigger": "2024-09-28 00:13:09 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:grant_patchouli": {
+    "criteria": {
+      "tick": "2024-09-28 00:13:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2024-09-28 14:59:37 +0000",
+      "minecraft:river": "2024-09-28 14:58:55 +0000",
+      "minecraft:cold_ocean": "2024-09-28 00:13:15 +0000",
+      "minecraft:ocean": "2024-09-28 00:13:31 +0000"
+    },
+    "done": false
+  },
+  "divinerpg:overworld/root": {
+    "criteria": {
+      "divinerpg": "2024-09-28 00:13:15 +0000"
+    },
+    "done": true
+  },
+  "taxov:advancement_pirate": {
+    "criteria": {
+      "advancement_pirate_0": "2024-09-28 00:13:31 +0000"
+    },
+    "done": true
+  },
+  "taxov:advancement_marine": {
+    "criteria": {
+      "advancement_marine_0": "2024-09-28 00:13:31 +0000"
     },
     "done": true
   },
@@ -59,45 +146,9 @@
     },
     "done": true
   },
-  "seavil:setup_ocean": {
-    "criteria": {
-      "tick": "2024-09-28 00:13:09 +0000"
-    },
-    "done": true
-  },
   "ironfurnaces:coal": {
     "criteria": {
       "rainbowcoal": "2024-09-28 00:14:09 +0000"
-    },
-    "done": true
-  },
-  "taxov:advancement_pirate": {
-    "criteria": {
-      "advancement_pirate_0": "2024-09-28 00:13:31 +0000"
-    },
-    "done": true
-  },
-  "divinerpg:overworld/patchouli": {
-    "criteria": {
-      "tick": "2024-09-28 00:13:09 +0000"
-    },
-    "done": true
-  },
-  "mekanism:root": {
-    "criteria": {
-      "automatic": "2024-09-28 00:13:08 +0000"
-    },
-    "done": true
-  },
-  "mowziesmobs:root": {
-    "criteria": {
-      "custom_test_name": "2024-09-28 00:13:09 +0000"
-    },
-    "done": true
-  },
-  "taxov:advancement_marine": {
-    "criteria": {
-      "advancement_marine_0": "2024-09-28 00:13:31 +0000"
     },
     "done": true
   },
@@ -107,52 +158,57 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
+  "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "minecraft:cold_ocean": "2024-09-28 00:13:15 +0000",
-      "minecraft:ocean": "2024-09-28 00:13:31 +0000"
+      "melon_slice": "2024-09-28 14:23:18 +0000"
     },
     "done": false
   },
-  "grimoireofgaia:main/root": {
+  "minecraft:husbandry/root": {
     "criteria": {
-      "join": "2024-09-28 00:13:09 +0000"
+      "consumed_item": "2024-09-28 14:23:18 +0000"
     },
     "done": true
   },
-  "apotheosis:give_book": {
+  "apotheosis:affix/root": {
     "criteria": {
-      "tick": "2024-09-28 00:13:09 +0000"
+      "sword": "2024-09-28 14:29:32 +0000"
     },
     "done": true
   },
-  "seadwellers:adv_root": {
+  "apotheosis:affix/chests": {
     "criteria": {
-      "adv_root": "2024-09-28 00:13:09 +0000"
+      "sword": "2024-09-28 14:29:32 +0000"
     },
     "done": true
   },
-  "biomancy:biomancy/craft_primal_core": {
+  "minecraft:story/obtain_armor": {
     "criteria": {
-      "has_unlocked_recipe": "2024-09-28 00:13:08 +0000"
+      "iron_helmet": "2024-09-28 14:29:54 +0000"
     },
     "done": true
   },
-  "global:root": {
+  "minecraft:adventure/root": {
     "criteria": {
-      "trigger": "2024-09-28 00:13:09 +0000"
+      "killed_by_something": "2024-09-28 14:58:46 +0000"
     },
     "done": true
   },
-  "irons_spellbooks:grant_patchouli": {
+  "apotheosis:affix/random": {
     "criteria": {
-      "tick": "2024-09-28 00:13:09 +0000"
+      "sword": "2024-09-28 15:35:35 +0000"
     },
     "done": true
   },
-  "divinerpg:overworld/root": {
+  "taxov:advancement_turtle_armor": {
     "criteria": {
-      "divinerpg": "2024-09-28 00:13:15 +0000"
+      "advancement_turtle_armor_0": "2024-09-28 15:35:35 +0000"
+    },
+    "done": false
+  },
+  "scguns:main/blackpowder/flintlock_pistol": {
+    "criteria": {
+      "flintlock_pistol": "2024-09-28 15:59:10 +0000"
     },
     "done": true
   },
