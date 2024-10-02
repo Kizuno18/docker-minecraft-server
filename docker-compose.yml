@@ -11,8 +11,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "10.0"
-          memory: 12G  # Limita o uso máximo de memória a 12 GB
+          cpus: "8.0"
+          memory: 8G  # Limita o uso máximo de memória a 12 GB
     # GPU support (for Docker runtime nvidia)
     runtime: nvidia
     environment:

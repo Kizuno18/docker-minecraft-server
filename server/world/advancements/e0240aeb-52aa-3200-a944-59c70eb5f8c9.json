@@ -103,10 +103,18 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2024-10-01 00:40:10 +0000",
+      "minecraft:birch_forest": "2024-09-30 18:17:33 +0000",
       "minecraft:beach": "2024-09-28 14:59:37 +0000",
       "minecraft:river": "2024-09-28 14:58:55 +0000",
       "minecraft:cold_ocean": "2024-09-28 00:13:15 +0000",
-      "minecraft:ocean": "2024-09-28 00:13:31 +0000"
+      "minecraft:forest": "2024-09-29 16:01:35 +0000",
+      "minecraft:lush_caves": "2024-09-29 15:58:41 +0000",
+      "minecraft:desert": "2024-09-30 18:23:08 +0000",
+      "minecraft:ocean": "2024-09-28 00:13:31 +0000",
+      "minecraft:warm_ocean": "2024-09-30 18:23:14 +0000",
+      "minecraft:savanna": "2024-09-30 18:59:23 +0000",
+      "minecraft:plains": "2024-09-29 16:00:16 +0000"
     },
     "done": false
   },
@@ -160,7 +168,10 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "melon_slice": "2024-09-28 14:23:18 +0000"
+      "baked_potato": "2024-09-28 22:39:36 +0000",
+      "bread": "2024-09-30 18:39:18 +0000",
+      "melon_slice": "2024-09-28 14:23:18 +0000",
+      "carrot": "2024-09-28 22:39:31 +0000"
     },
     "done": false
   },
@@ -209,6 +220,237 @@
   "scguns:main/blackpowder/flintlock_pistol": {
     "criteria": {
       "flintlock_pistol": "2024-09-28 15:59:10 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/rare": {
+    "criteria": {
+      "sword": "2024-09-28 22:09:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2024-09-28 22:11:45 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/socket": {
+    "criteria": {
+      "socket": "2024-09-28 22:11:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2024-09-28 22:14:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-09-28 22:36:33 +0000"
+    },
+    "done": true
+  },
+  "exmachinis:root": {
+    "criteria": {
+      "item": "2024-09-28 22:40:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2024-09-28 22:40:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "onion": "2024-09-28 23:11:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:vindicator": "2024-09-30 19:48:21 +0000",
+      "minecraft:slime": "2024-10-01 00:18:58 +0000",
+      "minecraft:phantom": "2024-09-30 20:56:52 +0000",
+      "minecraft:drowned": "2024-09-28 23:18:52 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:drowned": "2024-09-28 23:18:52 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/gem": {
+    "criteria": {
+      "gem": "2024-09-29 15:50:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2024-09-29 15:52:14 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "sugar_cane": "2024-09-30 18:16:24 +0000"
+    },
+    "done": false
+  },
+  "iceandfire:iceandfire/bestiary": {
+    "criteria": {
+      "bestiary": "2024-09-30 19:35:28 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/lectern": {
+    "criteria": {
+      "bestiary": "2024-09-30 19:35:58 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/anthralite": {
+    "criteria": {
+      "anthralite_ingot": "2024-09-30 19:37:34 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/gunpowder": {
+    "criteria": {
+      "gunpowder": "2024-09-30 19:38:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-09-30 19:44:30 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/ink_root": {
+    "criteria": {
+      "requirement": "2024-09-30 19:44:40 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/root": {
+    "criteria": {
+      "inscription_table": "2024-09-30 19:48:35 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:make_inscription_table": {
+    "criteria": {
+      "inscription_table": "2024-09-30 19:48:35 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/make_inscription_table": {
+    "criteria": {
+      "inscription_table": "2024-09-30 19:48:35 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_if_dragon": {
+    "criteria": {
+      "killed_lightning_dragon": "2024-09-30 19:52:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-09-30 19:59:02 +0000"
+    },
+    "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2024-09-30 20:10:04 +0000"
+    },
+    "done": false
+  },
+  "ad_astra:under_pressure": {
+    "criteria": {
+      "has_compressor": "2024-09-30 20:30:08 +0000"
+    },
+    "done": true
+  },
+  "exdeorum:core/barrel": {
+    "criteria": {
+      "has_barrel": "2024-09-30 20:30:22 +0000"
+    },
+    "done": true
+  },
+  "exmachinis:flux_sieve": {
+    "criteria": {
+      "has_flux_sieve": "2024-09-30 21:08:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2024-09-30 22:05:25 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/cowboy/pax": {
+    "criteria": {
+      "pax": "2024-10-01 00:02:23 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/charged_quartz": {
+    "criteria": {
+      "certus": "2024-10-01 00:09:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-10-02 17:14:58 +0000"
+    },
+    "done": true
+  },
+  "quark:crawl_in_hollow_log": {
+    "criteria": {
+      "crawl_in_hollow_log": "2024-10-02 17:23:52 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:flanged_mace": {
+    "criteria": {
+      "has_flanged_mace": "2024-10-02 17:34:11 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:carbon_footprint": {
+    "criteria": {
+      "has_coal_generator": "2024-10-02 18:08:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-10-02 18:55:26 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_stamping_press": {
+    "criteria": {
+      "stamping_press": "2024-10-02 19:01:00 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:ad_astra": {
+    "criteria": {
+      "has_coal_generator": "2024-10-02 18:08:09 +0000"
     },
     "done": true
   },

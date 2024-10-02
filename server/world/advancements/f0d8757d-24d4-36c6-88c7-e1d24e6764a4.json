@@ -1,0 +1,304 @@
+{
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "global:pirates": {
+    "criteria": {
+      "trigger": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "global:exandreal": {
+    "criteria": {
+      "trigger": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "vs_eureka:recipes/balloon_color": {
+    "criteria": {
+      "has_red_balloon": "2024-09-28 21:49:45 +0000",
+      "has_black_balloon": "2024-09-28 21:49:45 +0000",
+      "has_lime_balloon": "2024-09-28 21:49:45 +0000",
+      "has_cyan_balloon": "2024-09-28 21:49:45 +0000",
+      "has_light_blue_balloon": "2024-09-28 21:49:45 +0000",
+      "has_gray_balloon": "2024-09-28 21:49:45 +0000",
+      "has_pink_balloon": "2024-09-28 21:49:45 +0000",
+      "has_light_gray_balloon": "2024-09-28 21:49:45 +0000",
+      "has_white_balloon": "2024-09-28 21:49:45 +0000",
+      "has_blue_balloon": "2024-09-28 21:49:45 +0000",
+      "has_yellow_balloon": "2024-09-28 21:49:45 +0000",
+      "has_purple_balloon": "2024-09-28 21:49:45 +0000",
+      "has_orange_balloon": "2024-09-28 21:49:45 +0000",
+      "has_brown_balloon": "2024-09-28 21:49:45 +0000",
+      "has_green_balloon": "2024-09-28 21:49:45 +0000",
+      "has_magenta_balloon": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:wda_root": {
+    "criteria": {
+      "WDA": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "bunker_down:first_joined_world": {
+    "criteria": {
+      "first_joined_world": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "mffs:grant_book_on_first_join": {
+    "criteria": {
+      "guidebook": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/root": {
+    "criteria": {
+      "seeds": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "create:root": {
+    "criteria": {
+      "0": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/root": {
+    "criteria": {
+      "gun": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "seavil:setup_ocean": {
+    "criteria": {
+      "tick": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "ironfurnaces:coal": {
+    "criteria": {
+      "rainbowcoal": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "divinerpg:overworld/patchouli": {
+    "criteria": {
+      "tick": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "mowziesmobs:root": {
+    "criteria": {
+      "custom_test_name": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "vs_eureka:recipes/ship_helm": {
+    "criteria": {
+      "has_gold": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "grimoireofgaia:main/root": {
+    "criteria": {
+      "join": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:give_book": {
+    "criteria": {
+      "tick": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "seadwellers:adv_root": {
+    "criteria": {
+      "adv_root": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "biomancy:biomancy/craft_primal_core": {
+    "criteria": {
+      "has_unlocked_recipe": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "global:root": {
+    "criteria": {
+      "trigger": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:grant_patchouli": {
+    "criteria": {
+      "tick": "2024-09-28 21:49:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:windswept_hills": "2024-09-28 23:07:40 +0000",
+      "minecraft:beach": "2024-09-28 23:07:06 +0000",
+      "minecraft:cold_ocean": "2024-09-28 21:49:48 +0000",
+      "minecraft:ocean": "2024-09-28 21:50:01 +0000",
+      "minecraft:plains": "2024-09-28 23:07:21 +0000"
+    },
+    "done": false
+  },
+  "divinerpg:overworld/root": {
+    "criteria": {
+      "divinerpg": "2024-09-28 21:49:48 +0000"
+    },
+    "done": true
+  },
+  "taxov:advancement_pirate": {
+    "criteria": {
+      "advancement_pirate_0": "2024-09-28 21:50:01 +0000"
+    },
+    "done": true
+  },
+  "taxov:advancement_marine": {
+    "criteria": {
+      "advancement_marine_0": "2024-09-28 21:50:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2024-09-28 21:56:50 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/rare": {
+    "criteria": {
+      "sword": "2024-09-28 21:57:32 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/root": {
+    "criteria": {
+      "sword": "2024-09-28 21:57:32 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/chests": {
+    "criteria": {
+      "sword": "2024-09-28 21:57:32 +0000"
+    },
+    "done": true
+  },
+  "taxov:advancement_turtle_armor": {
+    "criteria": {
+      "advancement_turtle_armor_0": "2024-09-28 22:03:06 +0000"
+    },
+    "done": false
+  },
+  "exmachinis:root": {
+    "criteria": {
+      "item": "2024-09-28 22:04:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2024-09-28 22:04:46 +0000"
+    },
+    "done": true
+  },
+  "mffs:steel_compound": {
+    "criteria": {
+      "has_steel_compound": "2024-09-28 22:05:12 +0000"
+    },
+    "done": true
+  },
+  "mffs:root": {
+    "criteria": {
+      "has_steel_compound": "2024-09-28 22:05:12 +0000"
+    },
+    "done": true
+  },
+  "mekanism:steel_ingot": {
+    "criteria": {
+      "ingot_steel": "2024-09-28 22:06:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-09-28 22:07:52 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:root": {
+    "criteria": {
+      "ars_nouveau:worn_notebook": "2024-09-28 22:08:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-09-28 22:17:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-09-28 22:36:55 +0000"
+    },
+    "done": true
+  },
+  "armorplus:story/root": {
+    "criteria": {
+      "crafting_table": "2024-09-28 22:47:12 +0000"
+    },
+    "done": true
+  },
+  "armorplus:story/thank_you_6m": {
+    "criteria": {
+      "open_inventory": "2024-09-28 22:47:12 +0000"
+    },
+    "done": true
+  },
+  "aquamirae:adventure/root": {
+    "criteria": {
+      "crafting_table": "2024-09-28 22:47:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-09-28 22:47:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2024-09-28 22:47:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "onion": "2024-09-28 23:10:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2024-09-28 23:13:55 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

@@ -1,6 +1,15 @@
 {
 	warps: {
+		pillager: { dim: "minecraft:overworld", x: -3570, y: 117, z: -2418, time: 1727725524348L, xRot: 19.800108f, yRot: 99.72864f }
+		casa: { dim: "minecraft:overworld", x: 2230, y: 63, z: 1265, time: 1727625456132L, xRot: 3.6000016f, yRot: -4.5030518f }
+		cave: { dim: "minecraft:overworld", x: 2248, y: 15, z: 1318, time: 1727625440398L, xRot: 2.400584f, yRot: -83.8515f }
+		coliseum: { dim: "minecraft:overworld", x: 2124, y: 63, z: 1330, time: 1727726680048L, xRot: -5.100519f, yRot: -90.00403f }
 		plains: { dim: "minecraft:overworld", x: 3687, y: 64, z: 4280, time: 1727377489910L, xRot: 13.800005f, yRot: -111.73416f }
+		coliseu2: { dim: "minecraft:overworld", x: 2135, y: 69, z: 1330, time: 1727894563495L, xRot: 1.949514f, yRot: 91.64986f }
+		vila2: { dim: "minecraft:overworld", x: -3534, y: 70, z: -2377, time: 1727724859084L, xRot: 7.9498878f, yRot: -94.05963f }
+		dragon: { dim: "minecraft:overworld", x: -3562, y: 78, z: -2301, time: 1727726004764L, xRot: 11.8501625f, yRot: -19.127075f }
+		vila: { dim: "minecraft:overworld", x: 1251, y: 67, z: 8538, time: 1727724354604L, xRot: -0.15000732f, yRot: 47.06962f }
+		ilha1: { dim: "minecraft:overworld", x: 2414, y: 63, z: -77, time: 1727732364098L, xRot: 5.3997855f, yRot: -67.02276f }
 	}
 	mute_timeouts: { }
 	kits: { }
