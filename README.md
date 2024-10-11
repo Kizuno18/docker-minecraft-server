@@ -85,8 +85,8 @@ docker compose down
 
 Atualmente, este repositório contém duas branches, cada uma configurada para um modpack específico:
 
-1. **aventuras-piratas-1.20.1-forge-47.3.10:** Modpack Aventuras Piratas para Minecraft 1.20.1
-2. **vivendo-da-terra-1.20.1-forge-47.3.11:** Modpack Vivendo da Terra para Minecraft 1.20.1
+1. **main** Modpack Aventuras Piratas para Minecraft 1.20.1 forge 47.3.10
+2. **vivendo-da-terra:** Modpack Vivendo da Terra para Minecraft 1.20.1 forge 47.3.11
 
 Certifique-se de estar na branch correta para o modpack que deseja usar.
 
