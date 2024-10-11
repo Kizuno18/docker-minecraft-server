@@ -273,9 +273,16 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2024-10-05 21:01:05 +0000",
       "minecraft:vindicator": "2024-09-30 19:48:21 +0000",
+      "minecraft:spider": "2024-10-05 21:51:35 +0000",
       "minecraft:slime": "2024-10-01 00:18:58 +0000",
       "minecraft:phantom": "2024-09-30 20:56:52 +0000",
+      "minecraft:zombified_piglin": "2024-10-05 21:06:00 +0000",
+      "minecraft:witch": "2024-10-05 21:09:25 +0000",
+      "minecraft:wither_skeleton": "2024-10-05 21:06:16 +0000",
+      "minecraft:enderman": "2024-10-05 20:57:36 +0000",
+      "minecraft:zombie": "2024-10-05 23:22:50 +0000",
       "minecraft:drowned": "2024-09-28 23:18:52 +0000"
     },
     "done": false
@@ -436,6 +443,12 @@
     },
     "done": true
   },
+  "ad_astra:ad_astra": {
+    "criteria": {
+      "has_coal_generator": "2024-10-02 18:08:09 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2024-10-02 18:55:26 +0000"
@@ -448,9 +461,81 @@
     },
     "done": true
   },
-  "ad_astra:ad_astra": {
+  "biomancy:biomancy/raw_meat_collection": {
     "criteria": {
-      "has_coal_generator": "2024-10-02 18:08:09 +0000"
+      "has_raw_porkchop": "2024-10-02 23:10:10 +0000"
+    },
+    "done": false
+  },
+  "biomancy:biomancy/root": {
+    "criteria": {
+      "has_raw_meats": "2024-10-02 23:10:10 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/craft_gun_bench": {
+    "criteria": {
+      "gun_bench": "2024-10-02 23:21:35 +0000"
+    },
+    "done": true
+  },
+  "create:copper": {
+    "criteria": {
+      "0": "2024-10-03 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/root": {
+    "criteria": {
+      "copper": "2024-10-03 17:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-10-03 18:56:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-10-03 18:56:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2024-10-03 18:56:30 +0000"
+    },
+    "done": false
+  },
+  "alexscaves:alexscaves/neodymium_ingot": {
+    "criteria": {
+      "scarlet": "2024-10-03 19:36:09 +0000"
+    },
+    "done": true
+  },
+  "grimoireofgaia:main/cecaelia": {
+    "criteria": {
+      "kill": "2024-10-03 20:00:18 +0000"
+    },
+    "done": true
+  },
+  "tan__a_curios_expansion:heated_insulation_advancement": {
+    "criteria": {
+      "heated_insulation_advancement": "2024-10-03 20:02:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-10-05 21:02:34 +0000"
+    },
+    "done": true
+  },
+  "mekanism:materials": {
+    "criteria": {
+      "material": "2024-10-05 21:29:18 +0000"
     },
     "done": true
   },

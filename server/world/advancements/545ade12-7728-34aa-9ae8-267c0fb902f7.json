@@ -223,6 +223,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "chorus_fruit": "2024-10-02 17:02:14 +0000",
+      "baked_potato": "2024-10-05 19:22:52 +0000",
       "glow_berries": "2024-09-28 22:49:40 +0000",
       "salmon": "2024-09-28 20:51:01 +0000",
       "sweet_berries": "2024-09-28 21:50:06 +0000",
@@ -310,14 +311,23 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-10-02 17:26:54 +0000",
+      "minecraft:blaze": "2024-10-05 21:00:58 +0000",
       "minecraft:skeleton": "2024-09-28 20:13:04 +0000",
       "minecraft:vindicator": "2024-10-02 17:35:00 +0000",
+      "minecraft:magma_cube": "2024-10-03 19:19:16 +0000",
       "minecraft:spider": "2024-09-30 17:05:52 +0000",
+      "minecraft:piglin_brute": "2024-10-03 19:16:22 +0000",
+      "minecraft:creeper": "2024-10-02 23:16:56 +0000",
       "minecraft:slime": "2024-09-30 17:14:19 +0000",
       "minecraft:phantom": "2024-09-30 16:07:28 +0000",
+      "minecraft:zombified_piglin": "2024-10-05 21:06:04 +0000",
       "minecraft:witch": "2024-09-28 21:15:59 +0000",
+      "minecraft:wither_skeleton": "2024-10-05 21:05:55 +0000",
       "minecraft:husk": "2024-10-02 18:06:17 +0000",
+      "minecraft:cave_spider": "2024-10-03 00:22:38 +0000",
+      "minecraft:piglin": "2024-10-03 19:16:04 +0000",
       "minecraft:silverfish": "2024-09-30 17:22:51 +0000",
+      "minecraft:enderman": "2024-10-02 23:50:23 +0000",
       "minecraft:zombie": "2024-09-28 20:22:28 +0000",
       "minecraft:drowned": "2024-09-28 16:46:36 +0000",
       "minecraft:zombie_villager": "2024-09-28 21:21:03 +0000"
@@ -564,9 +574,21 @@
     },
     "done": true
   },
+  "quark:crawl_in_hollow_log": {
+    "criteria": {
+      "crawl_in_hollow_log": "2024-10-02 18:04:51 +0000"
+    },
+    "done": true
+  },
   "alexsmobs:alexsmobs/emu": {
     "criteria": {
       "killed_by": "2024-10-02 18:04:58 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/rare_gem": {
+    "criteria": {
+      "gem": "2024-10-02 18:07:05 +0000"
     },
     "done": true
   },
@@ -576,15 +598,9 @@
     },
     "done": true
   },
-  "quark:crawl_in_hollow_log": {
+  "grimoireofgaia:main/sphinx": {
     "criteria": {
-      "crawl_in_hollow_log": "2024-10-02 18:04:51 +0000"
-    },
-    "done": true
-  },
-  "apotheosis:affix/rare_gem": {
-    "criteria": {
-      "gem": "2024-10-02 18:07:05 +0000"
+      "kill": "2024-10-02 18:27:39 +0000"
     },
     "done": true
   },
@@ -595,9 +611,185 @@
     },
     "done": false
   },
-  "grimoireofgaia:main/sphinx": {
+  "batsgalore:bat_death": {
     "criteria": {
-      "kill": "2024-10-02 18:27:39 +0000"
+      "biggest_fan_bat": "2024-10-02 23:18:25 +0000"
+    },
+    "done": true
+  },
+  "grimoireofgaia:main/mimic": {
+    "criteria": {
+      "kill": "2024-10-03 00:23:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-10-03 15:40:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-10-03 15:40:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2024-10-03 15:40:08 +0000",
+      "minecraft:basalt_deltas": "2024-10-03 16:43:16 +0000",
+      "minecraft:warped_forest": "2024-10-03 16:55:12 +0000"
+    },
+    "done": false
+  },
+  "tan__a_curios_expansion:heated_insulation_advancement": {
+    "criteria": {
+      "heated_insulation_advancement": "2024-10-03 15:40:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2024-10-03 16:30:26 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/sulfur_chunk": {
+    "criteria": {
+      "sulfur_chunk": "2024-10-03 16:58:31 +0000"
+    },
+    "done": true
+  },
+  "scguns:main/vehement_coal": {
+    "criteria": {
+      "vehement_coal": "2024-10-03 17:00:02 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/straddler": {
+    "criteria": {
+      "killed_by": "2024-10-03 17:05:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-10-03 17:23:40 +0000"
+    },
+    "done": true
+  },
+  "exmachinis:flux_hammer": {
+    "criteria": {
+      "has_flux_hammer": "2024-10-03 17:36:02 +0000"
+    },
+    "done": true
+  },
+  "exmachinis:flux_sieve": {
+    "criteria": {
+      "has_flux_sieve": "2024-10-03 17:37:16 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:under_pressure": {
+    "criteria": {
+      "has_compressor": "2024-10-03 18:33:41 +0000"
+    },
+    "done": true
+  },
+  "grimoireofgaia:main/wither_cow": {
+    "criteria": {
+      "kill": "2024-10-03 18:56:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-10-03 19:15:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_treasure": "2024-10-03 19:19:04 +0000"
+    },
+    "done": true
+  },
+  "grimoireofgaia:main/arachne": {
+    "criteria": {
+      "kill": "2024-10-05 00:20:41 +0000"
+    },
+    "done": true
+  },
+  "mekanism:materials": {
+    "criteria": {
+      "material": "2024-10-05 00:59:54 +0000"
+    },
+    "done": true
+  },
+  "grimoireofgaia:main/creep": {
+    "criteria": {
+      "kill": "2024-10-05 01:22:00 +0000"
+    },
+    "done": true
+  },
+  "grimoireofgaia:main/flesh_lich": {
+    "criteria": {
+      "kill": "2024-10-05 01:34:12 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_if_dragon": {
+    "criteria": {
+      "killed_ice_dragon": "2024-10-05 01:40:15 +0000"
+    },
+    "done": true
+  },
+  "grimoireofgaia:main/mummy": {
+    "criteria": {
+      "kill": "2024-10-05 01:47:12 +0000"
+    },
+    "done": true
+  },
+  "grimoireofgaia:main/nine_tails": {
+    "criteria": {
+      "kill": "2024-10-05 01:49:58 +0000"
+    },
+    "done": true
+  },
+  "grimoireofgaia:main/oni": {
+    "criteria": {
+      "kill": "2024-10-05 01:52:36 +0000"
+    },
+    "done": true
+  },
+  "botania:main/generating_flower": {
+    "criteria": {
+      "flower": "2024-10-05 19:51:01 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:heavy_crossbow": {
+    "criteria": {
+      "has_heavy_crossbow": "2024-10-05 20:15:22 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_abandoned_temple": {
+    "criteria": {
+      "location0": "2024-10-05 20:17:26 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/gem_cut": {
+    "criteria": {
+      "cut": "2024-10-05 20:48:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-10-05 21:01:46 +0000"
     },
     "done": true
   },
