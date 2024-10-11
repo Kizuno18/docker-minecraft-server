@@ -1,0 +1,46 @@
+{
+	id: "4144AE1AFC12B5F5"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 64, item: "deeperdarker:sculk_stone" }
+		{ count: 64, item: "deeperdarker:echo_log" }
+		{
+			item: {
+				Count: 1
+				id: "deeperdarker:soul_elytra"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "deeperdarker:warden_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{ item: "deeperdarker:resonarium_plate" }
+		{
+			item: {
+				Count: 1
+				id: "deeperdarker:resonarium_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{ item: "deeperdarker:bloom_chest_boat" }
+		{ item: "deeperdarker:ancient_vase" }
+	]
+	title: "deep d"
+}

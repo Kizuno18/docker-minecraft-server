@@ -1,0 +1,191 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "009AB9BE29ED77D9"
+	id: "647F1957CEA1C08D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3DC125D5504B36D9"
+			rewards: [{
+				count: 4
+				id: "2C083E9AF2027D97"
+				item: "botania:white_mystical_flower"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "39B03F83232146AA"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5725065DF2E31A80"
+					item: { Count: 4, id: "botania:fertilizer" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DC125D5504B36D9"]
+			id: "572579BFEE63C6C1"
+			rewards: [{
+				id: "5B7B0E26101FD9DB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "64134508D393FD78"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+				{
+					id: "4CA00E450C87AC7D"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["572579BFEE63C6C1"]
+			id: "24757C9FF972B546"
+			rewards: [
+				{
+					count: 3
+					id: "12882E528F5417C4"
+					item: "botania:pure_daisy"
+					type: "item"
+				}
+				{
+					id: "548D6BEBF997F30A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "7405809C518884AD"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["24757C9FF972B546"]
+			id: "3D9944562E01233E"
+			rewards: [
+				{
+					id: "16E7C44411A83587"
+					item: "botania:redstone_spreader"
+					type: "item"
+				}
+				{
+					id: "113127862D0036F4"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "76D5A76CAAF59FDC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "1252C5BB92571FA2"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3D9944562E01233E"]
+			id: "763664ABF40721F8"
+			rewards: [
+				{
+					id: "5AF123EEFE09F36D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "6465C2D844FD22B3"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "623340ED30B0A6EB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "1A91DCED443F434F"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["763664ABF40721F8"]
+			id: "3A39B7D2EE3F3984"
+			rewards: [
+				{
+					id: "3A3C792B4B2E4B74"
+					item: "botania:flask"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "14D1A0181ACD764D"
+					item: "botania:flask"
+					type: "item"
+				}
+				{
+					id: "4DE88989031E30C8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "342C36F77427EEA1"
+				item: "botania:brewery"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3A39B7D2EE3F3984"]
+			id: "0EAF4F0204087205"
+			rewards: [
+				{
+					id: "683A3EB298EA8FA7"
+					item: "botania:dice"
+					type: "item"
+				}
+				{
+					id: "641518BD9ACB0F9E"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "3EC1844BACA78D47"
+				item: "botania:fabulous_pool"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+	]
+	title: "botania"
+}

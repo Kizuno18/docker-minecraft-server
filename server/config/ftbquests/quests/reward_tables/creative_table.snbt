@@ -1,0 +1,90 @@
+{
+	id: "251D71A0ED36580D"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:creative"
+					Throttle: 1.0d
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{ item: "create:creative_blaze_cake" }
+		{ item: "create:creative_fluid_tank" }
+		{ item: "botanypotstiers:creative_white_concrete_botany_pot" }
+		{
+			item: {
+				Count: 1
+				id: "mysticalagriculture:creative_soulium_dagger"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{ item: "mysticalagriculture:flight_augment" }
+		{ count: 64, item: "minecraft:allay_spawn_egg" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:capturing"
+						lvl: 6s
+					}]
+				}
+			}
+		}
+		{ item: "born_in_chaos_v1:spawn_structures_dark_tower" }
+		{ count: 10, item: "orecow:diamond_cow_spawn_egg" }
+		{
+			item: {
+				Count: 1
+				id: "piglet_structures:suspicious_gnome_amulet"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{ item: "vinery:wandering_winemaker_spawn_egg" }
+		{
+			item: {
+				Count: 1
+				id: "createbigcannons:creative_autocannon_ammo_container"
+				tag: { }
+			}
+		}
+		{ item: "vs_clockwork:creative_gravitron" }
+		{
+			item: {
+				Count: 1
+				id: "mysticaladaptations:insanium_axe"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 10000
+		}
+		{ count: 200, item: "mysticalagriculture:nether_star_seeds" }
+		{ item: "mysticaladaptations:insanium_reprocessor" }
+		{ count: 30, item: "mysticalagriculture:dragon_egg_seeds" }
+		{ count: 64, item: "mysticalagriculture:gaia_spirit_seeds" }
+	]
+	title: "creative table"
+}

@@ -1,0 +1,161 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armas_de_fogo"
+	group: "3E0CB2FBC6F4C62D"
+	id: "6A1CF1BCD8B782F0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1E605F8532F19DBE"
+			rewards: [
+				{
+					id: "2605E099DE8BA13B"
+					item: "jeg:scrap"
+					type: "item"
+				}
+				{
+					id: "6166E50E5812A504"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "2E64C20254F697DC"
+				item: "jeg:scrap_workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E605F8532F19DBE"]
+			id: "50F0685AC8746911"
+			rewards: [{
+				id: "5358F56B57870509"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "268EE5D27EBEE059"
+				item: "jeg:gunmetal_workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50F0685AC8746911"]
+			id: "4F1A421779F4220A"
+			rewards: [{
+				id: "4D349CB37C2509FD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5A202B04E7E9CB84"
+				item: "jeg:gunnite_workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1E605F8532F19DBE"]
+			id: "3C7968E9B913E692"
+			rewards: [
+				{
+					id: "370ECC6E76B4FE74"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "51547F276CF8D4B3"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72749A0AC4367C03"
+				item: {
+					Count: 1
+					id: "jeg:revolver"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50F0685AC8746911"]
+			id: "688D3BAD3EE698BB"
+			rewards: [
+				{
+					count: 2
+					id: "592ED91AC46ABB99"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "1705D3BC558DAAC3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "0607A32EAA1FE91F"
+				item: {
+					Count: 1
+					id: "jeg:infantry_rifle"
+					tag: {
+						AmmoCount: 8
+						Damage: 0
+						GeckoLibID: 2L
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F1A421779F4220A"]
+			id: "1E5CEC9624B05DC9"
+			rewards: [
+				{
+					count: 2
+					id: "7D0E87BE05B28FC8"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "61A15D6A929E36B7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "5DAE6B4C6D817ABF"
+				item: {
+					Count: 1
+					id: "jeg:combat_rifle"
+					tag: {
+						AmmoCount: 30
+						Damage: 0
+						GeckoLibID: 3L
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+	]
+	title: "armas de fogo "
+}

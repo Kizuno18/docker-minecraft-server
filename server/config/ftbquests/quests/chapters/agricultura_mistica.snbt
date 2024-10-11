@@ -1,0 +1,633 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "agricultura_mistica"
+	group: "009AB9BE29ED77D9"
+	id: "5649507E4BC8ECE0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "309CF50187EC970D"
+			rewards: [{
+				count: 16
+				id: "592B5EBAC9639C64"
+				item: "mysticalagriculture:inferium_seeds"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "3989A48773789DEB"
+					item: { Count: 64, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "626A02E90714877E"
+					item: { Count: 64, id: "mysticalagriculture:inferium_essence" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			id: "19314B2DCCA650D0"
+			rewards: [{
+				count: 20
+				id: "3E24B2B84198FAB7"
+				item: "mysticalagriculture:prosperity_seed_base"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 64L
+					id: "1C5BD8D24020297C"
+					item: { Count: 64, id: "mysticalagriculture:prosperity_shard" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2D7A5A3FD3F0D23C"
+					item: { Count: 64, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			id: "7B6F289F3CF7F726"
+			rewards: [
+				{
+					id: "68D4093CF5DA6A6D"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "4B897151F5169EE3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "477C40CD4CFCCC83"
+					item: "mysticalagriculture:infusion_pedestal"
+					type: "item"
+				}
+				{
+					id: "570A0A5599B439AA"
+					item: "mysticalagriculture:infusion_altar"
+					type: "item"
+				}
+			]
+			title: "altar de infusão"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7B6F289F3CF7F726"]
+			id: "1CE43B1D17958E06"
+			rewards: [
+				{
+					count: 64
+					id: "04BD3239EE1CA5F7"
+					item: "mysticalagriculture:prudentium_essence"
+					type: "item"
+				}
+				{
+					id: "2761AB6BBED586F6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "25201BF53C41DD96"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "30EE9D2EDD99426E"
+					item: "mysticalagriculture:air_seeds"
+					type: "item"
+				}
+				{
+					id: "09CE04B65C8CBF6D"
+					item: "mysticalagriculture:earth_seeds"
+					type: "item"
+				}
+				{
+					id: "23F6447B3575B517"
+					item: "mysticalagriculture:water_seeds"
+					type: "item"
+				}
+				{
+					id: "6AAFDCFE5AC4D489"
+					item: "mysticalagriculture:fire_seeds"
+					type: "item"
+				}
+				{
+					id: "431E64DB6DF11ADC"
+					item: "mysticalagriculture:stone_seeds"
+					type: "item"
+				}
+				{
+					id: "50B7CC3F75560361"
+					item: "mysticalagriculture:dirt_seeds"
+					type: "item"
+				}
+				{
+					id: "60C5049D74CA0A97"
+					item: "mysticalagriculture:wood_seeds"
+					type: "item"
+				}
+				{
+					id: "4C4456BEE6D363D6"
+					item: "mysticalagriculture:ice_seeds"
+					type: "item"
+				}
+				{
+					id: "727026AC00171C45"
+					item: "mysticalagriculture:deepslate_seeds"
+					type: "item"
+				}
+			]
+			title: "sementes elementais"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1CE43B1D17958E06"]
+			id: "22947920C557E6B2"
+			rewards: [
+				{
+					count: 64
+					id: "620B2C871BBB62A0"
+					item: "mysticalagriculture:tertium_essence"
+					type: "item"
+				}
+				{
+					id: "2FC0A0AA11373614"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 5
+					id: "43FF7359AC749F0F"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "583B6F1A1B88CFC2"
+					item: "mysticalagriculture:nature_seeds"
+					type: "item"
+				}
+				{
+					id: "577FA74E5C8091AC"
+					item: "mysticalagriculture:dye_seeds"
+					type: "item"
+				}
+				{
+					id: "7C6B1FEF13391C6D"
+					item: "mysticalagriculture:nether_seeds"
+					type: "item"
+				}
+				{
+					id: "4652E2C703BEDCF2"
+					item: "mysticalagriculture:cow_seeds"
+					type: "item"
+				}
+				{
+					id: "45A118B467498A3E"
+					item: "mysticalagriculture:chicken_seeds"
+					type: "item"
+				}
+				{
+					id: "5ED5B6B0F5C69248"
+					item: "mysticalagriculture:pig_seeds"
+					type: "item"
+				}
+				{
+					id: "5A4AF700A6DC5694"
+					item: "mysticalagriculture:amethyst_seeds"
+					type: "item"
+				}
+				{
+					id: "2206AF103825C978"
+					item: "mysticalagriculture:honey_seeds"
+					type: "item"
+				}
+				{
+					id: "273BB3910DB4A6CE"
+					item: "mysticalagriculture:coral_seeds"
+					type: "item"
+				}
+				{
+					id: "24E2C488C1AE8FF1"
+					item: "mysticalagriculture:coal_seeds"
+					type: "item"
+				}
+				{
+					id: "00F95C8CD21207FB"
+					item: "mysticalagriculture:sulfur_seeds"
+					type: "item"
+				}
+				{
+					id: "188D748A4AA5A2BA"
+					item: "mysticalagriculture:silicon_seeds"
+					type: "item"
+				}
+				{
+					id: "782FCD40CE6F7807"
+					item: "mysticalagriculture:turtle_seeds"
+					type: "item"
+				}
+				{
+					id: "7E2F18F6669B3DF1"
+					item: "mysticalagriculture:slime_seeds"
+					type: "item"
+				}
+				{
+					id: "243D978FCE511541"
+					item: "mysticalagriculture:fish_seeds"
+					type: "item"
+				}
+				{
+					id: "79FDDD8BBA7E3C43"
+					item: "mysticalagriculture:squid_seeds"
+					type: "item"
+				}
+				{
+					id: "6809E885B6E38107"
+					item: "mysticalagriculture:sheep_seeds"
+					type: "item"
+				}
+				{
+					id: "749B722C0E01D745"
+					item: "mysticalagriculture:limestone_seeds"
+					type: "item"
+				}
+				{
+					id: "1DBB2614EE19DD58"
+					item: "mysticalagriculture:mystical_flower_seeds"
+					type: "item"
+				}
+				{
+					id: "173A0EF9E0F4D294"
+					item: "mysticalagriculture:saltpeter_seeds"
+					type: "item"
+				}
+				{
+					id: "7FDA12302AEB3CE4"
+					item: "mysticalagriculture:aluminum_seeds"
+					type: "item"
+				}
+			]
+			title: "sementes tier 2"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["22947920C557E6B2"]
+			id: "30F76297220041C9"
+			rewards: [
+				{
+					count: 64
+					id: "1940D36E05E750E8"
+					item: "mysticalagriculture:supremium_essence"
+					type: "item"
+				}
+				{
+					id: "352A6A15552D5A22"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "1B86C164F5A5A9F7"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					id: "7CF5798B6EE614FD"
+					item: "mysticalagriculture:skeleton_seeds"
+					type: "item"
+				}
+				{
+					id: "0A7D0A56B04F655D"
+					item: "mysticalagriculture:zombie_seeds"
+					type: "item"
+				}
+				{
+					id: "0A17ABF011951F27"
+					item: "mysticalagriculture:prismarine_seeds"
+					type: "item"
+				}
+				{
+					id: "1348DE69CA5E6574"
+					item: "mysticalagriculture:obsidian_seeds"
+					type: "item"
+				}
+				{
+					id: "55DE83FBF3F6BD56"
+					item: "mysticalagriculture:redstone_seeds"
+					type: "item"
+				}
+				{
+					id: "126EA7686C818EA8"
+					item: "mysticalagriculture:glowstone_seeds"
+					type: "item"
+				}
+				{
+					id: "129C456E1A2DCE10"
+					item: "mysticalagriculture:nether_quartz_seeds"
+					type: "item"
+				}
+				{
+					id: "395F58F3E391E0BA"
+					item: "mysticalagriculture:copper_seeds"
+					type: "item"
+				}
+				{
+					id: "4C317861AED64C24"
+					item: "mysticalagriculture:iron_seeds"
+					type: "item"
+				}
+				{
+					id: "2DB5D6DB2B347217"
+					item: "mysticalagriculture:lead_seeds"
+					type: "item"
+				}
+				{
+					id: "6C365FDEF4D02005"
+					item: "mysticalagriculture:silver_seeds"
+					type: "item"
+				}
+				{
+					id: "177257DD6BB9DED5"
+					item: "mysticalagriculture:brass_seeds"
+					type: "item"
+				}
+				{
+					id: "6AA684F8ACA0C7FD"
+					item: "mysticalagriculture:zinc_seeds"
+					type: "item"
+				}
+				{
+					id: "260D135F592AF59E"
+					item: "mysticalagriculture:bronze_seeds"
+					type: "item"
+				}
+				{
+					id: "3EC0CF4C60637372"
+					item: "mysticalagriculture:tin_seeds"
+					type: "item"
+				}
+				{
+					id: "5BF49D7EDAE04EA6"
+					item: "mysticalagriculture:spider_seeds"
+					type: "item"
+				}
+				{
+					id: "57652EA0AD167EC0"
+					item: "mysticalagriculture:creeper_seeds"
+					type: "item"
+				}
+				{
+					id: "7FBC570C4D42AFEB"
+					item: "mysticalagriculture:sky_stone_seeds"
+					type: "item"
+				}
+				{
+					id: "77369E8261629D97"
+					item: "mysticalagriculture:certus_quartz_seeds"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30F76297220041C9"]
+			hide: true
+			id: "25FB15C59F2408E3"
+			rewards: [
+				{
+					count: 64
+					id: "47F7EE5625112039"
+					item: "mysticalagriculture:awakened_supremium_essence"
+					type: "item"
+				}
+				{
+					id: "74CC4B64A3DEBDDF"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "09AE93D013E3048D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [
+				{
+					id: "7A5D53545DF4846E"
+					item: "mysticalagriculture:ghast_seeds"
+					type: "item"
+				}
+				{
+					id: "61F46D911DC9ECA1"
+					item: "mysticalagriculture:experience_seeds"
+					type: "item"
+				}
+				{
+					id: "3A29F6AE1A38FEB3"
+					item: "mysticalagriculture:lapis_lazuli_seeds"
+					type: "item"
+				}
+				{
+					id: "77B0E64E5C854332"
+					item: "mysticalagriculture:gold_seeds"
+					type: "item"
+				}
+				{
+					id: "4E3EB7267EEB3D1E"
+					item: "mysticalagriculture:steel_seeds"
+					type: "item"
+				}
+				{
+					id: "490D7C6E6C789FEE"
+					item: "mysticalagriculture:electrum_seeds"
+					type: "item"
+				}
+				{
+					id: "64FFD8F3F23E4A93"
+					item: "mysticalagriculture:invar_seeds"
+					type: "item"
+				}
+				{
+					id: "2BDB07E4546596D7"
+					item: "mysticalagriculture:enderman_seeds"
+					type: "item"
+				}
+				{
+					id: "037DA4B7F7011177"
+					item: "mysticalagriculture:blaze_seeds"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["25FB15C59F2408E3"]
+			id: "01747B63C9442D2B"
+			rewards: [
+				{
+					id: "1C42D624DCB1D2A8"
+					item: "mysticalagriculture:imperium_essence"
+					type: "item"
+				}
+				{
+					id: "6C497F5AB4F38AD7"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					id: "33403AF269E25DDA"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [
+				{
+					id: "4995A5E7EE6BABFC"
+					item: "mysticalagriculture:wither_skeleton_seeds"
+					type: "item"
+				}
+				{
+					id: "2E0499C8B22157A5"
+					item: "mysticalagriculture:netherite_seeds"
+					type: "item"
+				}
+				{
+					id: "364E4505FD074385"
+					item: "mysticalagriculture:diamond_seeds"
+					type: "item"
+				}
+				{
+					id: "213C7F799622BC5F"
+					item: "mysticalagriculture:emerald_seeds"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01747B63C9442D2B"]
+			id: "6E7E1BFFC4AD5273"
+			rewards: [
+				{
+					count: 64
+					id: "1971481C15F020AF"
+					item: "mysticalagriculture:imperium_essence"
+					type: "item"
+				}
+				{
+					id: "35ECDB49500ECC10"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "02C1B5E278C78705"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "6BAE0E057C68E146"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CACCFC868CB4B28"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E423D12F7D5019B"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "648611A1ACABCDFE"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "60889465CB60826C"
+					item: "createdeco:netherite_coinstack"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0D71C913E215AAD0"
+					item: "mysticalagriculture:gaia_spirit_seeds"
+					type: "item"
+				}
+				{
+					id: "2B4EA5FC5A1CACAD"
+					item: "mysticalagriculture:dragon_egg_seeds"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 8.5d
+		}
+	]
+	title: "agricultura mistica"
+}

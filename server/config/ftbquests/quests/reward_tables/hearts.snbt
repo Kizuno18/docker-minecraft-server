@@ -1,0 +1,17 @@
+{
+	id: "77890BE2B7B6ABE6"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "cyclic:heart" }
+		{ item: "cyclic:heart_empty" }
+		{ item: "artifacts:crystal_heart" }
+		{ item: "scalinghealth:heart_crystal" }
+		{ item: "scalinghealth:cursed_heart" }
+		{ item: "scalinghealth:enchanted_heart" }
+		{ item: "scalinghealth:chance_heart" }
+		{ item: "paraglider:heart_container" }
+		{ item: "paraglider:anti_vessel" }
+	]
+	title: "hearts"
+}

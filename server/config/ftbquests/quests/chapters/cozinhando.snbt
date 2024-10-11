@@ -1,0 +1,212 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cozinhando"
+	group: "009AB9BE29ED77D9"
+	id: "7E585EE379813AB7"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1F26E7436892D86F"
+			rewards: [{
+				id: "40761A12C0B604E7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "04C1A68D4D864AB8"
+				item: "croptopia:cooking_pot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0E3FAA5B5930E7FC"
+			rewards: [{
+				id: "376698AC6B10FA24"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0707368EF5CF5402"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "0848DA7A999C26C4"
+			rewards: [{
+				id: "1F53CBEAB2575CAE"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "2996D31E2096BDA4"
+				item: "twilightdelight:fiery_cooking_pot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "00105110B1729540"
+			rewards: [{
+				id: "7E64B8E2D1CDBFF3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7B282EE54FB9E9EA"
+				item: "refurbished_furniture:frying_pan"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "4C21A82778960A67"
+			rewards: [{
+				id: "084E4D771A774C1E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6F1FCC0FFBEAFBC0"
+				item: "croptopia:frying_pan"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "24697AF8DAC8960E"
+			rewards: [
+				{
+					id: "2475C8EBF27F2D95"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7595EE6B96A7F0E0"
+					item: {
+						Count: 1
+						id: "vinery:strad_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72BEC9E30042C114"
+				item: {
+					Count: 1
+					id: "farmersdelight:iron_knife"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "01BD8A5CF3DABC5C"
+			rewards: [{
+				count: 2
+				id: "076419C20F82D875"
+				item: "scalinghealth:heart_crystal"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "042A91F1843D6805"
+					item: "collectorsreap:clam_pasta"
+					type: "item"
+				}
+				{
+					id: "56943B3371DD1082"
+					item: "farm_and_charm:pasta_with_onion_sauce"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "41F346D75245308B"
+			rewards: [
+				{
+					id: "37167A55E87817C6"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "3C038C99FB0FC375"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					id: "266DBA49958CBC06"
+					item: "delightful:deluxe_cheeseburger"
+					type: "item"
+				}
+				{
+					id: "41E09330AE6F71E1"
+					item: "moredelight:loaded_hamburger"
+					type: "item"
+				}
+				{
+					id: "2AA8B1F2C5DA6779"
+					item: "miners_delight:vegan_hamburger"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			id: "0D5781EE8911FD3D"
+			rewards: [
+				{
+					id: "21FB89E144596ACC"
+					item: {
+						Count: 1
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "12DDF3EE40032DB3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "29F097144AF8DF1C"
+				item: "immersive_cooking:deepslate_brick_counter"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "cozinhando"
+}

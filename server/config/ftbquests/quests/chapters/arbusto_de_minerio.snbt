@@ -1,0 +1,228 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "arbusto_de_minerio"
+	group: "009AB9BE29ED77D9"
+	id: "5F3EBDABF6987BA2"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7C25F67EA7978B3B"
+			rewards: [{
+				id: "30C4E4D12C4525F6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4AA8DB9B540A580C"
+				item: "oreberriesreplanted:oak_vat"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C25F67EA7978B3B"]
+			id: "0AB2A4DAA6EB0852"
+			rewards: [{
+				id: "69577FAE61ACD503"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "68A49E8EE38E3603"
+				item: "oreberriesreplanted:zinc_oreberry_bush"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C25F67EA7978B3B"]
+			id: "42603C7B588D7119"
+			rewards: [
+				{
+					id: "436984ACDEBC1EB1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3F165A02356EBB57"
+					item: "oreberriesreplanted:copper_oreberry_bush"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F5B4C8D9C7EB10F"
+				item: "oreberriesreplanted:copper_oreberry_bush"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42603C7B588D7119"]
+			id: "6EFA1541C869DE1E"
+			rewards: [{
+				id: "49BDD1CE41012F73"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "255D8679F7DB9EB6"
+				item: "oreberriesreplanted:tin_oreberry_bush"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EFA1541C869DE1E"]
+			id: "4B1A5B4EC8BD1527"
+			rewards: [
+				{
+					id: "19EED4513FBFBB78"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "3D6E8DDDEC0E428F"
+					item: "oreberriesreplanted:iron_oreberry_bush"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D683F564C545B40"
+				item: "oreberriesreplanted:iron_oreberry_bush"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4B1A5B4EC8BD1527"]
+			id: "747D92D38E785653"
+			rewards: [
+				{
+					id: "42598E1A12EF4842"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "68022A27BAD96828"
+					item: "oreberriesreplanted:gold_oreberry_bush"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2AB2CA9BC6CEFBF7"
+				item: "oreberriesreplanted:gold_oreberry_bush"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["747D92D38E785653"]
+			id: "72AB98905133C5C1"
+			rewards: [
+				{
+					id: "785165C7B3C8C59D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "626116E40EC6B940"
+					item: "oreberriesreplanted:aluminum_oreberry_bush"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51864DF6BE826BA1"
+				item: "oreberriesreplanted:aluminum_oreberry_bush"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["747D92D38E785653"]
+			id: "163A5AE868E43AE6"
+			rewards: [
+				{
+					count: 2
+					id: "13669DA84E081DCA"
+					item: "oreberriesreplanted:lead_oreberry_bush"
+					type: "item"
+				}
+				{
+					id: "34F98D2EBB6DC7A9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "4B7FEEDE3B007328"
+				item: "oreberriesreplanted:lead_oreberry_bush"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["747D92D38E785653"]
+			id: "432DE7E5472B8A52"
+			rewards: [
+				{
+					count: 2
+					id: "586597DC4DFC5932"
+					item: "oreberriesreplanted:nickel_oreberry_bush"
+					type: "item"
+				}
+				{
+					id: "60F99EA00B1BE277"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "36CDE8694C5BF37A"
+				item: "oreberriesreplanted:nickel_oreberry_bush"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"72AB98905133C5C1"
+				"163A5AE868E43AE6"
+				"432DE7E5472B8A52"
+			]
+			id: "2279730886B8AC83"
+			rewards: [
+				{
+					id: "663E97449A795F15"
+					item: "oreberriesreplanted:essence_berry_bush"
+					type: "item"
+				}
+				{
+					id: "13CD370A82125889"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "393F60B30877AB23"
+				item: "oreberriesreplanted:essence_berry_bush"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+	]
+	title: "arbusto de minerio"
+}

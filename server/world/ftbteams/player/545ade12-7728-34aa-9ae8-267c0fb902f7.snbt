@@ -1,0 +1,17 @@
+{
+	id: "545ade12-7728-34aa-9ae8-267c0fb902f7"
+	type: "player"
+	player_name: "drakk18"
+	ranks: {
+		545ade12-7728-34aa-9ae8-267c0fb902f7: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "drakk18"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59D2FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

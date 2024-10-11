@@ -1,0 +1,333 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "poluio"
+	group: "009AB9BE29ED77D9"
+	id: "13C490A170EC5FA9"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "34F931C1DB297D60"
+			rewards: [{
+				id: "5F4CA14BC7ECA71A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "61D42685F1307F8C"
+				item: {
+					Count: 1
+					id: "thinair:respirator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "07EE1E6E1F15FE71"
+			tasks: [{
+				id: "540B3FE18383FD77"
+				item: {
+					Count: 1
+					id: "thinair:air_bladder"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07EE1E6E1F15FE71"]
+			id: "1BC4BFDAC0E328E3"
+			tasks: [{
+				id: "0BB04FCE0B0C98A2"
+				item: {
+					Count: 1
+					id: "thinair:reinforced_air_bladder"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F5061541BB73A2F"]
+			id: "7625291BBA67DF4D"
+			rewards: [{
+				id: "174D1624B31AA82D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4F91731D292BE3F7"
+				item: {
+					Count: 1
+					id: "adpother:iron_respirator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7625291BBA67DF4D"]
+			id: "1AA4531706509D7B"
+			rewards: [{
+				id: "5ECF06697D394E27"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4C627785E07AFF7B"
+				item: {
+					Count: 1
+					id: "adpother:gold_respirator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1AA4531706509D7B"]
+			id: "3FE0B23CC4F40B06"
+			rewards: [{
+				id: "69BA01F183C19EFE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5D65C06FD9489BBC"
+				item: {
+					Count: 1
+					id: "adpother:diamond_respirator"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F5061541BB73A2F"]
+			id: "29916C3D2578E611"
+			rewards: [{
+				id: "43971A5C522C2ADD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0B7C7E63EE6B3F93"
+				item: {
+					Count: 1
+					id: "adpother:iron_vacuum_bag"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29916C3D2578E611"]
+			id: "0542663CA0274536"
+			rewards: [{
+				id: "6FD3A2ABA49B3693"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "77C9989E573EA511"
+				item: {
+					Count: 1
+					id: "adpother:gold_vacuum_bag"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0542663CA0274536"]
+			id: "55453AA73D164AF4"
+			rewards: [{
+				id: "51738471E0CC4BE5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "71B4C198BB4CDEA5"
+				item: {
+					Count: 1
+					id: "adpother:diamond_vacuum_bag"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F5061541BB73A2F"]
+			id: "7424CA31BE91EC39"
+			rewards: [{
+				id: "5507DFD5C6AE1F72"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "07C812C286A770C0"
+				item: {
+					Count: 1
+					id: "adpother:iron_vacuum_tube"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7424CA31BE91EC39"]
+			id: "295A8CCFFB2A4EA3"
+			rewards: [{
+				id: "07B479DD09580490"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "03B9F426F0995E49"
+				item: {
+					Count: 1
+					id: "adpother:gold_vacuum_tube"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["295A8CCFFB2A4EA3"]
+			id: "31122C7E04875BC3"
+			rewards: [{
+				id: "623C26D4A18D6F38"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6D3845B27887F107"
+				item: {
+					Count: 1
+					id: "adpother:diamond_vacuum_tube"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "6F5061541BB73A2F"
+			rewards: [{
+				id: "459A390955A50E3A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "42BC7D4C22393D55"
+				item: {
+					Count: 1
+					id: "adpother:aerometer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F5061541BB73A2F"]
+			id: "2740024DDE25BC66"
+			rewards: [{
+				id: "69FFB32F428D23BF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4F3C461DF477D6DB"
+				item: "adpother:iron_filter_frame"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2740024DDE25BC66"]
+			id: "086429289A019E98"
+			rewards: [{
+				id: "2E0BB1237B23C06F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "24AD18EC04F2C084"
+				item: "adpother:gold_filter_frame"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["086429289A019E98"]
+			id: "05778AE49247BCEE"
+			rewards: [{
+				id: "5389683CC09C2D5F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3D61AF0708C6410A"
+				item: "adpother:diamond_filter_frame"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+	]
+	title: "poluição"
+}

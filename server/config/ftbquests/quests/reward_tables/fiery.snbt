@@ -1,0 +1,66 @@
+{
+	id: "420703649773F484"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			type: "xp_levels"
+			xp_levels: 20
+		}
+		{
+			command: "/effect @p!"
+			type: "command"
+		}
+		{ count: 2, item: "minecraft:diamond" }
+		{
+			item: {
+				Count: 1
+				id: "twilightforest:fiery_chestplate"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "spartantwilight:fiery_greatsword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "twilightforest:ironwood_axe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:fortune"
+						lvl: 1s
+					}]
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "spartantwilight:fiery_boomerang"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "fiery"
+}

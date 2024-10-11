@@ -1,0 +1,294 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armas_industriais"
+	group: "3E0CB2FBC6F4C62D"
+	id: "7A9313A0EE7D9EF1"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1C6040DA81BFA990"
+			rewards: [
+				{
+					count: 10
+					id: "42A91982EF88F9C9"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "302A051BCDC5033E"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			tasks: [{
+				id: "3F27442F28BBCFFB"
+				item: {
+					Count: 1
+					id: "industrialforegoing:infinity_nuke"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0A82CD07FDFF9CB2"
+			rewards: [
+				{
+					id: "543A8E5765588870"
+					item: "alexscaves:nuclear_siren"
+					type: "item"
+				}
+				{
+					id: "6B2F2EEC71CD1A82"
+					type: "xp_levels"
+					xp_levels: 40
+				}
+			]
+			tasks: [{
+				id: "69B13FD5AF4867E4"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "000A14BC35634994"
+			rewards: [
+				{
+					count: 5
+					id: "06FCE9929425C87D"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "0D432A34C66151D0"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "520DBE902B7BE522"
+				item: {
+					Count: 1
+					id: "alexscaves:raygun"
+					tag: {
+						affix_data: {
+							sockets: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "204DF9A11783EB3D"
+			rewards: [
+				{
+					count: 3
+					id: "38E5CEEA36D3BBEE"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "604729F5875C0995"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "074C883BE34C4E3E"
+				item: {
+					Count: 1
+					id: "createbigcannons:cannon_welder"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "148D1AC83591384E"
+			rewards: [
+				{
+					id: "3A20326A6BFB43EB"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					count: 2
+					id: "4CB58DF930711B02"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "6C2662DACBBA3E8A"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "708303F4CE871DA7"
+				item: "createdieselgenerators:chemical_sprayer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "388DCB5D1749EA8C"
+			rewards: [
+				{
+					count: 3
+					id: "28885BAA58560445"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "73A684116B989FFB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "0E1478044860A5B9"
+				item: {
+					Count: 1
+					id: "create_sa:flamethrower"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "4458C697BEB17CA6"
+			rewards: [
+				{
+					count: 2
+					id: "58F30948D6A2C753"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "218866396F798BC8"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "65DE39A567ACDDAA"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "667F854A57EABDCD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "649E9D1A056104FD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							energy: {
+								energy: 0
+							}
+						}
+					}
+					id: "cyclic:laser_cannon"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			id: "7B686D8719341F9B"
+			rewards: [
+				{
+					id: "5D20A78EC5804BB3"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "37945FA6BA441F7B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "438A181949744BE7"
+				item: {
+					Count: 1
+					id: "create_sabers:brass_saber_white"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "7C273537D7CC4F51"
+			rewards: [
+				{
+					id: "247226ED0BBAE92F"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "2054C73F62800134"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "270C111EA0D4215A"
+				item: {
+					Count: 1
+					id: "ae2:matter_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+	]
+	title: "armas industriais"
+}

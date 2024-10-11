@@ -8,24 +8,24 @@ allowAdminTool = true
 shouldSpawnFire = true
 #Should players be able to break a mine without it exploding?
 ableToBreakMines = true
-#Should mines' explosions be smaller than usual.
+#Should mines' explosions be smaller than usual?
 smallerMineExplosion = false
 #Should mines explode if broken while in Creative mode?
 mineExplodesWhenInCreative = true
 #Set this to false if you want mines to not break blocks when they explode. If this is set to true, the blockExplosionDropDecay gamerule will be respected
 mineExplosionsBreakBlocks = true
-#From how many blocks away can a laser block connect to another laser block?
+#At most from how many blocks away can a laser block connect to another laser block?
 #Range: > 0
 laserBlockRange = 5
-#From how many blocks away can an inventory scanner connect to another inventory scanner?
+#At most from how many blocks away can an inventory scanner connect to another inventory scanner?
 #Range: > 0
 inventoryScannerRange = 2
-#What is the maximum value that can be set for an alarm's range option? Do note, that this may be limited by chunk loading distance. Higher values may also not be finetuneable.
+#What is the maximum value that can be set for an alarm's range option? Do note, that this may be limited by chunk loading distance. Higher values may also lead to the setting being less finetuneable.
 #Range: > 1
 maxAlarmRange = 100
-#Allow claiming unowned blocks?
+#Allows to claim blocks that do not have an owner by rightclicking them with the Universal Owner Changer.
 allowBlockClaim = false
-#Should reinforced blocks' textures be slightly darker than their vanilla counterparts? This does nothing unless force_reinforced_block_tint is set to true.
+#Should reinforced blocks' textures be slightly darker than their vanilla counterparts? Servers can force this setting on clients if the server config "force_reinforced_block_tint" is set to true.
 reinforced_block_tint = true
 #Set this to true if you want to force the setting of reinforced_block_tint for players.
 force_reinforced_block_tint = false
@@ -65,6 +65,9 @@ incorrectPasscodeDamage = 4
 #Set the amount of damage the default Sentry bullet inflicts onto the mobs it hits. This will not affect other projectiles the Sentry can use, like arrows. Default is one heart.
 #Range: > 0
 sentry_bullet_damage = 2
+#Set the amount of damage the player receives when they are suffocating in a reinforced block. The default is two and a half hearts. If the value is set to -1, vanilla suffocation damage will be used.
+#Range: > -1
+reinforced_suffocation_damage = 5
 #Set this to false to disallow players to activate night vision without having the potion effect when looking through cameras.
 allow_camera_night_vision = true
 #Defines the amount of time in milliseconds that needs to pass between two separate attempts from a player to enter a passcode.

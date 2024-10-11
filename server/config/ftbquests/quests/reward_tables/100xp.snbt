@@ -1,0 +1,125 @@
+{
+	id: "04FC12AE42A70BF0"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 2, item: "skilltree:wisdom_scroll" }
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "skilltree:ruby_5"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:arsonist_necklace"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:scholar_necklace"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:healer_necklace"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "skilltree:fisherman_necklace"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "skilltree:iron_ring"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "skilltree:iron_ring"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "skilltree:jade_5"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "skilltree:citrine_5"
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "skilltree:assassin_necklace"
+				tag: {
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+	]
+	title: "100xp"
+}

@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "009AB9BE29ED77D9", title: "o começo" }
+		{ id: "3E0CB2FBC6F4C62D", title: "armas" }
+		{ id: "40669C1616F801AB", title: "maquinas" }
+		{ id: "2F92CFCB1A330C06", title: "o fim e alem" }
+	]
+}

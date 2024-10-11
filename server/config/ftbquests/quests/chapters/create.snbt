@@ -1,0 +1,388 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "40669C1616F801AB"
+	id: "573F16D1EE42CFBE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "07E753CBAEA2EFCC"
+			rewards: [
+				{
+					count: 6
+					id: "04768F64E3000A13"
+					item: "minecraft:dried_kelp"
+					type: "item"
+				}
+				{
+					id: "1F8DF114D9C5DB27"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "451BDD459C5E1D7C"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "19FB2AFB4631D91D"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07E753CBAEA2EFCC"]
+			id: "295D666A0874FFCE"
+			rewards: [
+				{
+					id: "5532F6C32EA49355"
+					item: "create_compressed:shaft_bundle"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "65D3731E04AA69EA"
+					item: "minecraft:dried_kelp"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "374ADBAD14D92A50"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["295D666A0874FFCE"]
+			id: "3AFB917A701092FE"
+			tasks: [{
+				id: "5F443B92AC2B73BB"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3AFB917A701092FE"]
+			id: "43F2CF8D5BF77206"
+			tasks: [{
+				id: "3869064B370E1D26"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43F2CF8D5BF77206"]
+			id: "2071274881F33CC3"
+			rewards: [
+				{
+					id: "1384A9E47F81F59C"
+					item: "cyclic:heart_empty"
+					type: "item"
+				}
+				{
+					id: "4A5BA29D7A6742DB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7D69A3E673B17AB4"
+					item: "scalinghealth:enchanted_heart"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4095BAEC56E6D354"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "21BC68D4E13083EF"
+					item: { Count: 4, id: "create:white_sail" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["295D666A0874FFCE"]
+			id: "1F262B0908194A11"
+			rewards: [{
+				id: "42A5CF217BAD5F16"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "48B88EBD006A074A"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1B80DCA12307B94E"]
+			id: "74E5EAAEB7CE1753"
+			rewards: [{
+				id: "4759545C3C759654"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "2DA9F3B19DBECE3F"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1F262B0908194A11"]
+			id: "1B80DCA12307B94E"
+			rewards: [{
+				id: "6034E50BC6A2CF21"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "3798179A513B31E7"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "781F811AAB31DC15"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1B80DCA12307B94E"]
+			id: "6A5A94E585A5CCE7"
+			rewards: [
+				{
+					id: "290B8A6A7D62FF93"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "093BE3323EB6D18C"
+					item: {
+						Count: 1
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B40735A9D883BE3"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1B80DCA12307B94E"
+				"6AA203E272962F4F"
+			]
+			id: "0D908C0DFF5660A6"
+			rewards: [
+				{
+					id: "604C70BA58C966E8"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "7BC8222E09507B34"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "38838BD914D4C8DD"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1B80DCA12307B94E"]
+			id: "6AA203E272962F4F"
+			rewards: [
+				{
+					id: "0AA042E1F950033F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "6C3F5F238261B9F6"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D203CC6C53D551D"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6AA203E272962F4F"]
+			id: "6E2E34921273A811"
+			rewards: [
+				{
+					id: "20E32E21A884E50A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "689760EE252A3E90"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "68A4DC13B8833D14"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6AA203E272962F4F"]
+			id: "0B52780FDE2A49AE"
+			rewards: [
+				{
+					id: "5ECE26EB7B185656"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "6183D911EEF3C03C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "6A3659D155E1AF7F"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1F262B0908194A11"]
+			id: "5EC77BF35191A6C9"
+			rewards: [
+				{
+					id: "2797BCC61FBE4E05"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 10
+					id: "03BBEB6B6306C3F6"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73E3914287F2B82B"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6A5A94E585A5CCE7"]
+			id: "2C5BB55E7F2B5A7F"
+			tasks: [{
+				id: "27AD05ED3C70AECC"
+				item: "vs_clockwork:wanderlite_crystal"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2C5BB55E7F2B5A7F"]
+			id: "31106D4AAB549469"
+			tasks: [{
+				id: "575F06F8D51049BD"
+				item: "vs_clockwork:wanderwand"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2C5BB55E7F2B5A7F"]
+			id: "6E0BB6731F48DF93"
+			tasks: [{
+				id: "0A2E1CAC9D0C2277"
+				item: "vs_clockwork:gravitron"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2C5BB55E7F2B5A7F"]
+			id: "34AD7751B23AED29"
+			tasks: [{
+				id: "0935FE825A6A25CE"
+				item: "vs_clockwork:gyro"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["31106D4AAB549469"]
+			id: "415BC57BA167A104"
+			tasks: [{
+				id: "3C1A3F5C3C352AFB"
+				item: "vs_clockwork:physics_infuser"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+	]
+	title: "create"
+}

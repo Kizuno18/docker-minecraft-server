@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "furnace"
+	group: "009AB9BE29ED77D9"
+	id: "21DE9E7281E60EC0"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6D9D32E7269200C8"
+			rewards: [{
+				count: 64
+				id: "462317DDB4B0BE28"
+				item: "mysticalagradditions:inferium_coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43B73E087AEEC356"
+				item: "ironfurnaces:copper_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D9D32E7269200C8"]
+			id: "6A2B95E66FD34DD2"
+			rewards: [{
+				id: "6169A2EBB7867E10"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "34AC4FE572690294"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A2B95E66FD34DD2"]
+			id: "7EA0B263E27AAB12"
+			rewards: [{
+				id: "715384EDB6623C29"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4C70F7086718E09D"
+				item: "ironfurnaces:silver_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7EA0B263E27AAB12"]
+			id: "274210FC41291FFE"
+			rewards: [{
+				id: "76B31D8996CDAB06"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "3B72E5E454662376"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["274210FC41291FFE"]
+			id: "0F7B0CF216E0FE1D"
+			rewards: [
+				{
+					id: "55105953A76DBCFA"
+					item: "ironfurnaces:gold_furnace"
+					type: "item"
+				}
+				{
+					id: "3E30411580F4DC1E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "42381E49805E877A"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F7B0CF216E0FE1D"]
+			id: "18484A39000E54B3"
+			rewards: [
+				{
+					count: 3
+					id: "4D3DC8112CBDC42A"
+					item: "mysticalagradditions:tertium_coal_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "40C454B7A92D32D3"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CF5EB5BCC0ED5CC"
+				item: "ironfurnaces:emerald_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["18484A39000E54B3"]
+			id: "1B5B41E91694E929"
+			rewards: [
+				{
+					id: "5E7F0942BAAA92FF"
+					item: "ironfurnaces:emerald_furnace"
+					type: "item"
+				}
+				{
+					id: "17E4DBB329BBB11E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "6BF7175A089B67ED"
+				item: "ironfurnaces:obsidian_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1B5B41E91694E929"]
+			id: "78503747F467771F"
+			rewards: [
+				{
+					count: 10
+					id: "6E3816C9ED3A94CA"
+					item: "mysticalagradditions:imperium_coal"
+					type: "item"
+				}
+				{
+					id: "1C9D25AB9D079C75"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "5887B789E772817B"
+				item: "ironfurnaces:netherite_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0F7B0CF216E0FE1D"]
+			id: "68D64991E4525F81"
+			rewards: [{
+				id: "1E172DCDD92BF5E5"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			tasks: [{
+				id: "534B0D8A51F60986"
+				item: "ironfurnaces:crystal_furnace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["78503747F467771F"]
+			id: "025E588ED25303B4"
+			rewards: [
+				{
+					id: "2997896D13FA8794"
+					item: {
+						Count: 1
+						id: "ironfurnaces:million_furnace"
+						tag: {
+							display: {
+								Name: "{\"extra\":[{\"color\":\"red\",\"text\":\"R\"},{\"color\":\"blue\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"i\"},{\"color\":\"blue\",\"text\":\"n\"},{\"color\":\"green\",\"text\":\"b\"},{\"color\":\"aqua\",\"text\":\"o\"},{\"color\":\"blue\",\"text\":\"w\"},{\"color\":\"yellow\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"blue\",\"text\":\"u\"},{\"color\":\"yellow\",\"text\":\"r\"},{\"color\":\"light_purple\",\"text\":\"n\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"aqua\",\"text\":\"c\"},{\"color\":\"green\",\"text\":\"e\"}],\"text\":\"\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "236CDF12222A8F75"
+					item: "ironfurnaces:rainbow_coal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5368E62F5E7F548B"
+					item: "ironfurnaces:rainbow_core"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "48EBFE3B2448E521"
+					item: { Count: 8, id: "ironfurnaces:rainbow_plating" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+	]
+	title: "furnace"
+}

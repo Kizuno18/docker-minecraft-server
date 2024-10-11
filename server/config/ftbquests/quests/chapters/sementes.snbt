@@ -1,0 +1,893 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sementes"
+	group: "009AB9BE29ED77D9"
+	id: "443A1641519BBB56"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			id: "1799E082C54FECC8"
+			rewards: [{
+				id: "52ABBF875A8E1225"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "22471BC853FD92F7"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "1D291D860031856D"
+			rewards: [{
+				id: "26A98522E273D898"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "040AF1574DA36A6A"
+				item: { Count: 64, id: "minecraft:pumpkin_seeds" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "73229128D8D1788E"
+			rewards: [{
+				id: "62362F3EF52D332F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "657556790FF5C6EC"
+				item: { Count: 64, id: "minecraft:melon_seeds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "6B27B2E6E8FCC843"
+			rewards: [{
+				id: "5C6ED6CF2CE58B2F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "6CCBC3612D2F25BC"
+				item: { Count: 64, id: "minecraft:beetroot_seeds" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "1412C1F30C27E344"
+			rewards: [{
+				id: "0E90AF0941F3E63F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "0C737B5C792FC7AB"
+				item: { Count: 64, id: "supplementaries:flax_seeds" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "5C4B97BBF2B0C5E1"
+			rewards: [{
+				id: "07473E9D50BCD52A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "59C35D9F7A20A0D6"
+				item: { Count: 64, id: "minecraft:torchflower_seeds" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "3FBC3DC75705770C"
+			rewards: [{
+				id: "45DE412FD7ADD806"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "70269D6A4A7D1ABC"
+				item: { Count: 64, id: "croptopia:artichoke_seed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1799E082C54FECC8"]
+			id: "4EDEF3A6FD5463A9"
+			rewards: [{
+				id: "744830E9AFBC577E"
+				item: "createdeco:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F9694E0C07CF215"
+				item: "quark:seed_pouch"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "0967213DE7E660BD"
+			rewards: [{
+				id: "7C1A5CDB5DDFDAAD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "4CDF111BB731BB41"
+				item: { Count: 64, id: "croptopia:asparagus_seed" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			id: "3F7712EBA90A3C3F"
+			rewards: [{
+				id: "518629C49F563C0F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "4EEA068238A97E2D"
+				item: { Count: 64, id: "croptopia:barley_seed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "04251BE9CB091B74"
+			rewards: [{
+				id: "3F16543DA6AE628A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4479DAFE68917EA6"
+				item: "croptopia:basil_seed"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "2B07967E44703440"
+			rewards: [{
+				id: "3D957D783E0F645E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "747754DD32B2133A"
+				item: { Count: 64, id: "croptopia:bellpepper_seed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "6067FE13E4C2D3F0"
+			rewards: [{
+				id: "381E57957847AFB8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "00A617F265EC1EE8"
+				item: { Count: 64, id: "croptopia:blackbean_seed" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "5336CC8F0A2523A4"
+			rewards: [{
+				id: "1415218F54021A58"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "16EF408E501EDB00"
+				item: { Count: 64, id: "croptopia:blackberry_seed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "3F4C8BED3D5A42BF"
+			rewards: [{
+				id: "5E3DACB6663D3F21"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "7124210CCF79833F"
+				item: { Count: 64, id: "croptopia:blueberry_seed" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "767F6A1B82E9F1CD"
+			rewards: [{
+				id: "3AC3F00AF58D287D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "7687461E30C5DCEE"
+				item: { Count: 64, id: "croptopia:broccoli_seed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "118289DD3C30B5A1"
+			rewards: [{
+				id: "2B2D326BE767288A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "3ADD407C451CF04F"
+				item: { Count: 64, id: "croptopia:cabbage_seed" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			id: "089236094B4EA7CE"
+			rewards: [{
+				id: "5D6BA56988BFDEB7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "792EB8259B32F923"
+				item: { Count: 64, id: "croptopia:cantaloupe_seed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "11F4CBD25EE70FC1"
+			rewards: [{
+				id: "3FE2E26675B53B4F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "47F60CB9D1877BF3"
+				item: { Count: 64, id: "croptopia:cauliflower_seed" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			id: "6622F23E4BA28DD6"
+			rewards: [{
+				id: "143D1664A9D60A37"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "6232AD0455860ED9"
+				item: { Count: 64, id: "croptopia:chile_pepper_seed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			id: "15B54330F6EA7381"
+			rewards: [{
+				id: "2795C405FD6D987F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "7A5DA41CF9F2E099"
+				item: { Count: 64, id: "croptopia:celery_seed" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			id: "53C387A67981E431"
+			rewards: [{
+				id: "7FEA5EE772E91053"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "2891DD0B98770ECE"
+				item: { Count: 64, id: "croptopia:coffee_seed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			id: "02ECE27DBABC0664"
+			rewards: [{
+				id: "1C3460AB6BD49EA9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "25877828E8EEBC9C"
+				item: { Count: 64, id: "croptopia:corn_seed" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			id: "11F387D6C770B73E"
+			rewards: [{
+				id: "09203B393456B5EE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "1D345A5CC9EA20BE"
+				item: { Count: 64, id: "croptopia:cranberry_seed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			id: "08771526CAD09518"
+			rewards: [{
+				id: "73D92FEE859720B2"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "1ED1727C3B5433DD"
+				item: { Count: 64, id: "croptopia:cucumber_seed" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			id: "15012BD52D15FD00"
+			rewards: [{
+				id: "42B8914FFA9156B5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "2AFE3F862417BCCD"
+				item: { Count: 64, id: "croptopia:eggplant_seed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			id: "716986C66A9558D9"
+			rewards: [{
+				id: "3842DFF9F249D856"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "0F3F6E1AF622DD1F"
+				item: { Count: 64, id: "croptopia:elderberry_seed" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			id: "4BBCEA2221ACD500"
+			rewards: [{
+				id: "2FEAEF983833A176"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "3D5BEAE7DC942FCF"
+				item: { Count: 64, id: "croptopia:garlic_seed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			id: "7BF30EF143B572C3"
+			rewards: [{
+				id: "683F02ECF8195458"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "6C74D0FEDD3B0F5B"
+				item: { Count: 64, id: "croptopia:ginger_seed" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			id: "5AB89CCB40E5D309"
+			rewards: [{
+				id: "3A42F0846F0E849A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "48ED76C40B7686BF"
+				item: { Count: 64, id: "croptopia:greenbean_seed" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			id: "2BB2C5345411DA9B"
+			rewards: [{
+				id: "3379FF19F2E7EA22"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "1EF483EA701AF40E"
+				item: { Count: 64, id: "croptopia:olive_seed" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			id: "5C66E76410920A71"
+			rewards: [{
+				id: "2DF7164E67F05013"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "44C59356D65D0B92"
+				item: { Count: 64, id: "croptopia:rhubarb_seed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			id: "4D93E2988C2265DB"
+			rewards: [{
+				id: "7EBEE1BA943082A8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "7AD281A2C685A08F"
+				item: { Count: 64, id: "croptopia:tea_seed" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			id: "2EE0A604CF8E385E"
+			rewards: [{
+				id: "571B8EB0D9520714"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "21427A72D8392781"
+				item: "croptopia:zucchini_seed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			id: "66537F02B5F9D31A"
+			rewards: [{
+				id: "7559D42E55ABC2B4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "30BAECF801B1F7B4"
+				item: { Count: 64, id: "pamhc2crops:artichokeseeditem" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			id: "218A2CA402B63D89"
+			rewards: [{
+				id: "420D222185FA0C9B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "3F3C986BE51A8476"
+				item: { Count: 64, id: "pamhc2crops:candleberryseeditem" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			id: "23234267AF5147CD"
+			rewards: [{
+				id: "79EACAB013234A43"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "4F6984016C69DA32"
+				item: { Count: 64, id: "pamhc2crops:cornseeditem" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			id: "5C45FB4D148492BD"
+			rewards: [{
+				id: "13D2C4930BF20227"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "57AB2C4BF2542E4A"
+				item: { Count: 64, id: "pamhc2crops:garlicseeditem" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			id: "792B09F5E6A826BE"
+			rewards: [{
+				id: "652E71534BDD65A7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "044C6029AD14758E"
+				item: { Count: 64, id: "pamhc2crops:juteseeditem" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			id: "06C4E1535CD9554E"
+			rewards: [{
+				id: "764C04C98756A0CF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "37A428DE2FCF8B20"
+				item: { Count: 64, id: "pamhc2crops:mustardseedsseeditem" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			id: "262D107BA32D1FA8"
+			rewards: [{
+				id: "675CAC3EE422ADB8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "0059CFA31D60EBD1"
+				item: { Count: 64, id: "pamhc2crops:riceseeditem" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			id: "7DD7E3E678C87BB1"
+			rewards: [{
+				id: "33ECC1B13BCEDD48"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "08ED61831F4FEEB0"
+				item: { Count: 64, id: "pamhc2crops:sweetpotatoseeditem" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			id: "10B5E9C9A84B5A83"
+			rewards: [{
+				id: "3B9A68A7CDC079DD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "4998729A71096635"
+				item: { Count: 64, id: "pamhc2crops:tomatoseeditem" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 15.0d
+		}
+		{
+			id: "1004D87359391BB4"
+			rewards: [{
+				id: "52D1723BF501D9F4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "66B5387199078356"
+				item: { Count: 64, id: "pamhc2crops:canolaseeditem" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			id: "30C09F07AA6DFF4D"
+			rewards: [{
+				id: "2D16EB75153A5801"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "28C02541F58B4058"
+				item: { Count: 64, id: "pamhc2crops:yuccaseeditem" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.0d
+		}
+		{
+			id: "3080650F301CD912"
+			rewards: [{
+				id: "00845AC4199C7288"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "7798C739583C2AEA"
+				item: { Count: 64, id: "vinery:red_grape_seeds" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			id: "6D0D231A198086D1"
+			rewards: [{
+				id: "47D09415F47B2229"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "6F0FD7B0265892A0"
+				item: { Count: 64, id: "collectorsreap:pomegranate_seeds" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 16.5d
+		}
+		{
+			id: "2842766411FCD215"
+			rewards: [{
+				id: "340298CBF76D2A81"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "50ACE9ECECC6D1D5"
+				item: { Count: 64, id: "brewery:hops_seeds" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 16.5d
+		}
+		{
+			id: "04AA1610C056E106"
+			rewards: [{
+				id: "5F9ADC84C456A583"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 64L
+				id: "2D61DA7D4F131104"
+				item: { Count: 64, id: "farm_and_charm:strawberry_seeds" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["4EDEF3A6FD5463A9"]
+			id: "2155CB0A4241B28C"
+			rewards: [
+				{
+					count: 5
+					id: "387A8DBF9EA7C156"
+					item: "farm_and_charm:scarecrow"
+					type: "item"
+				}
+				{
+					id: "023F9C4A49E10347"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "66AEBD529EC4A1E2"
+				item: "farm_and_charm:scarecrow"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4EDEF3A6FD5463A9"]
+			id: "3BE5717EDBC737D5"
+			rewards: [
+				{
+					id: "55B778E240A2B552"
+					item: {
+						Count: 1
+						id: "mysticalagriculture:diamond_scythe"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "058FE0E17BF69DED"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "53F4FEA1E3D41EF0"
+					item: {
+						Count: 1
+						id: "cyclic:scythe_leaves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10B1DEE4F65F536E"
+					item: {
+						Count: 1
+						id: "cyclic:scythe_harvest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0221D395C4F6CC35"
+					item: {
+						Count: 1
+						id: "cyclic:scythe_forage"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66083A6678CDA7B5"
+					item: {
+						Count: 1
+						id: "cyclic:scythe_leaves"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -0.5d
+		}
+	]
+	title: "sementes"
+}

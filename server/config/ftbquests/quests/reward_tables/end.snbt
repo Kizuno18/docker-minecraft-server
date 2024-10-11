@@ -1,0 +1,47 @@
+{
+	id: "064D2C1DF70BA247"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 64, item: "minecraft:end_stone" }
+		{ item: "supplementaries:enderman_head" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+				tag: {
+					EntityTag: {
+						type: "productivebees:ender"
+					}
+				}
+			}
+		}
+		{ item: "minecraft:ender_chest" }
+		{ count: 16, item: "minecraft:ender_pearl" }
+		{ count: 16, item: "minecraft:ender_eye" }
+		{
+			item: {
+				Count: 1
+				id: "apotheosis:gem"
+				tag: {
+					affix_data: {
+						rarity: "apotheosis:ancient"
+					}
+					gem: "apotheosis:core/splendor"
+				}
+			}
+		}
+		{ item: "resourcechickens:enderman_chicken_spawn_egg" }
+		{
+			item: {
+				Count: 1
+				id: "create_things_and_misc:mending_rune"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "end"
+}

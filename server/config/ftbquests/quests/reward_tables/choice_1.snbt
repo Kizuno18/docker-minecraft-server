@@ -1,0 +1,41 @@
+{
+	id: "5CD5E0311CBBE00D"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "botania:blaze_block" }
+		{ item: "mysticalagriculture:blaze_seeds" }
+		{ item: "resourcechickens:blaze_chicken_spawn_egg" }
+		{ item: "spartanweaponry:blaze_head" }
+		{ item: "quark:nether_wart_sack" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "cyclic:mattock_nether"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+		}
+		{ count: 64, item: "minecraft:netherrack" }
+		{ count: 64, item: "minecraft:nether_bricks" }
+		{ item: "cagedmobs:netherite_dna_sampler" }
+		{ count: 64, item: "minecraft:red_nether_bricks" }
+	]
+	title: "choice 1"
+}

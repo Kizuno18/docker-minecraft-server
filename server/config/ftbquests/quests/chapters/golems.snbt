@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "golems"
+	group: "40669C1616F801AB"
+	id: "41D07CC72E1E2C73"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5F79A33BAC58B1C9"
+			rewards: [
+				{
+					count: 2
+					id: "03C7FC5F8A23C6B2"
+					item: "golems:golem_spell"
+					type: "item"
+				}
+				{
+					id: "7A1104FD1211E0CA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "6400E9C3691E740F"
+					item: "golems:golem_spell"
+					type: "item"
+				}
+				{
+					id: "716C400FE125B331"
+					item: "golems:golem_head"
+					type: "item"
+				}
+				{
+					id: "4AB638FBB62BD710"
+					item: "golems:guide_book"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "116E29C0BE0D88E5"
+			rewards: [{
+				id: "1FC5FDBE596B9874"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "5BBDB97EBDB07258"
+				type: "checkmark"
+			}]
+			title: "crie um de cada golem"
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "golems"
+}

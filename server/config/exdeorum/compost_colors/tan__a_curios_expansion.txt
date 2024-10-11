@@ -1,8 +1,0 @@
-// Compost colors for tan__a_curios_expansion. You may add your own colors, change existing ones, or remove colors that aren't needed.
-cooling_thermal_insulation, #d3ffff
-firoze_bucket, #7c9eca
-heated_thermal_insulation, #ffedd3
-regulation_circuit, #65b984
-regulation_circuit_shard, #b66b7c
-regulation_crystal, #445b52
-universal_thermal_insulation, #e0ffff

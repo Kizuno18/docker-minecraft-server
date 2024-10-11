@@ -1,0 +1,402 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dimenses"
+	group: "2F92CFCB1A330C06"
+	id: "708D9463CC96E26E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "13ABE24ECA32F4D9"
+			rewards: [{
+				id: "7D2C3E9B06898399"
+				item: "scalinghealth:heart_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "63DD18970A910DC5"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["13ABE24ECA32F4D9"]
+			id: "65BF356C0B1B4C5D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B14674E92491CAB"
+				table_id: 6689499323068833805L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "1F31A6194182FB75"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65BF356C0B1B4C5D"]
+			id: "09D4007F9F557488"
+			rewards: [
+				{
+					id: "2F82FCB39AB088D9"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D077FAA1B647806"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "025B9B7F5D741B40"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7951FCDDC628E4A8"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5826AA35B5394CE4"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "103846AF3202F4E7"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "579448ECB9552ED2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65BF356C0B1B4C5D"]
+			id: "65838A83F17C0BA2"
+			rewards: [
+				{
+					id: "3BF439B271975146"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43A17AB844C8CDC7"
+					table_id: 454067644644696647L
+					type: "random"
+				}
+				{
+					auto: "invisible"
+					id: "473138BD1B3D7626"
+					ignore_reward_blocking: true
+					stage: "endgame"
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "77CCF7E5533763D3"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65838A83F17C0BA2"]
+			id: "597A0C2F66583E1F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5357FBF6564CB44C"
+					table_id: 4703075341803107829L
+					type: "random"
+				}
+				{
+					id: "56DD253A82B40D58"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "2C5840538BD73D2A"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["597A0C2F66583E1F"]
+			id: "286554587F15271E"
+			rewards: [
+				{
+					id: "7BEE6FA5015E8D11"
+					item: {
+						Count: 1
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13E05788695F534E"
+					item: "skilltree:amnesia_scroll"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1424CE9D9F36DE7C"
+				item: "deeperdarker:heart_of_the_deep"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["38BBAC62E235A4CC"]
+			id: "17B945BCF6A968CA"
+			rewards: [
+				{
+					id: "01C264D6C60575AD"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "511A596AEF5033C9"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "creatingspace:the_moon"
+				id: "2C45FEDB1EA83301"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["17B945BCF6A968CA"]
+			id: "75FE4D8BCE1E44BA"
+			rewards: [
+				{
+					id: "410F58B171D78421"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "703F1A5808FB6D4F"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "creatingspace:venus"
+				id: "31AD45C785D2E23E"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["65838A83F17C0BA2"]
+			id: "38BBAC62E235A4CC"
+			tasks: [{
+				dimension: "creatingspace:earth_orbit"
+				id: "7ABBEF0DA69422DB"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A7E6C0A135E7864"]
+			id: "0C723D43448F22F1"
+			rewards: [
+				{
+					id: "7E989DA5F164BA6A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "577E080D068657D8"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "creatingspace:mars"
+				id: "18EC655D4F5DBAB3"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["17B945BCF6A968CA"]
+			id: "0A7E6C0A135E7864"
+			rewards: [
+				{
+					id: "5949013DBD117E07"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "02864E45FA5B1EBA"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "creatingspace:mars_orbit"
+				id: "23F5A2835A8EAC52"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["13ABE24ECA32F4D9"]
+			id: "7272C4AE36FAFE7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1681EDBE3DE48067"
+				table_id: 4757775261912790148L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "1ECB471F1D6631C9"
+				type: "dimension"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"38BBAC62E235A4CC"
+				"0C723D43448F22F1"
+				"0A7E6C0A135E7864"
+				"17B945BCF6A968CA"
+				"75FE4D8BCE1E44BA"
+				"597A0C2F66583E1F"
+				"13ABE24ECA32F4D9"
+				"65BF356C0B1B4C5D"
+				"7272C4AE36FAFE7F"
+				"65838A83F17C0BA2"
+			]
+			id: "2628C6959A3D3779"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03D46686AC3C0153"
+				table_id: 2674418689716410381L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "63D244C8465DD57F"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					id: "1DD2060792B8C590"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					id: "366AF072EB5B4F70"
+					item: "minecraft:emerald_block"
+					type: "item"
+				}
+				{
+					id: "747F0F980351B746"
+					item: {
+						Count: 1
+						id: "vinery:cherry_wine"
+						tag: {
+							Year: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2ABFD3166AE7DC54"
+					item: "brewery:beer_wheat"
+					type: "item"
+				}
+				{
+					id: "089AAF2DE3E164CA"
+					item: "butchersdelight:deadpig"
+					type: "item"
+				}
+				{
+					id: "13638268DD5F528B"
+					points: false
+					type: "xp"
+					value: 10L
+				}
+			]
+			title: "a conclusão"
+			x: -4.0d
+			y: 3.0d
+		}
+	]
+	title: "dimensões"
+}

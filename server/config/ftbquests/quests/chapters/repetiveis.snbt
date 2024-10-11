@@ -1,0 +1,564 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "repetiveis"
+	group: ""
+	id: "6973F4B38A9CE3E7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "371BFF88FF13566F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FBF3DF92A8C46EE"
+				table_id: 8613428830695500774L
+				type: "random"
+			}]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "605FCE2177643F54"
+					type: "kill"
+					value: 100L
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "377DD8F20EF61206"
+					item: { Count: 10, id: "minecraft:rotten_flesh" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "6837F24865F44018"
+			rewards: [{
+				id: "40D0B2EB4A87F9C9"
+				item: "scalinghealth:chance_heart"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "321565C48DD75480"
+				item: { Count: 64, id: "minecraft:bone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "6DB134C5DE414656"
+			rewards: [{
+				id: "4A42E1B97AADE238"
+				item: "scalinghealth:chance_heart"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "657721B82C19FEC9"
+				item: { Count: 64, id: "minecraft:rotten_flesh" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "33BD8FF0E7F7D7CA"
+			rewards: [
+				{
+					id: "573BD708EDFA305F"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+				{
+					id: "11BCE72E9510D697"
+					item: "resourcechickens:enderman_chicken_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "589A3F594563135A"
+				type: "kill"
+				value: 2L
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "3BD5818A5B511817"
+			rewards: [{
+				id: "4F40E1C6F6553F32"
+				item: "scalinghealth:enchanted_heart"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "7F7AB8A8D6A8B657"
+				item: { Count: 128, id: "minecraft:bone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "0F41670808DB35E7"
+			rewards: [{
+				count: 2
+				id: "4B53F0563E04DE09"
+				item: "scalinghealth:cursed_heart"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 70L
+				id: "441CDE894C28B1C2"
+				item: { Count: 70, id: "minecraft:bone" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "4C68F8E8A8218ADC"
+			rewards: [{
+				id: "2DD8CAA4D4426A1F"
+				item: "apotheosis:boss_summoner"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6D38CB9E85B37F90"
+				item: "minecraft:emerald_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "22A17B713E1CD241"
+			rewards: [{
+				command: "/effect give @p cyclic:flight 3600"
+				id: "33A09F63D1A955DF"
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "64422E89BF60581B"
+					item: { Count: 64, id: "minecraft:feather" }
+					type: "item"
+				}
+				{
+					id: "30C7CE0DE68C5782"
+					points: false
+					type: "xp"
+					value: 10L
+				}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "65635E76313516C7"
+			tasks: [
+				{
+					entity: "minecraft:phantom"
+					id: "2D79C28DAAFAFA81"
+					type: "kill"
+					value: 20L
+				}
+				{
+					id: "560EF24FF73E447D"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			id: "4FB86619CAD423A9"
+			rewards: [
+				{
+					id: "72820E811192F9FA"
+					item: "artifacts:obsidian_skull"
+					type: "item"
+				}
+				{
+					id: "056C99953E221299"
+					item: {
+						Count: 1
+						id: "productivebees:spawn_egg_configurable_bee"
+						tag: {
+							EntityTag: {
+								type: "productivebees:obsidian"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 350L
+				id: "7D5EC73437DC2216"
+				item: { Count: 350, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			id: "3F0224E9CED83F6F"
+			rewards: [
+				{
+					id: "3E80FE758B1E1346"
+					item: "buzzier_bees:honey_bread"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3CAAB9193B4CA1D8"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "25275A12AAB87839"
+				item: { Count: 64, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			title: "não morra"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			id: "1A2EB641DE5B6D86"
+			rewards: [
+				{
+					id: "794173BF17D800EA"
+					item: "skilltree:amnesia_scroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7911BBDE8D5FE1FF"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5DA0C692AA622D29"
+					table_id: 359182609934650352L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "04BA2D30326590AB"
+				points: false
+				type: "xp"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			id: "55DE9CBF41AD0700"
+			rewards: [
+				{
+					id: "5827403B0AFAC0DE"
+					item: "supplementaries:enderman_head"
+					type: "item"
+				}
+				{
+					id: "0D0BAC8272030BC7"
+					item: "endermanoverhaul:summoner_pearl"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "37C30C9F3E02548D"
+				type: "kill"
+				value: 50L
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "6AF5FCCC99FDD9BB"
+			rewards: [
+				{
+					id: "35C2F2529E60029B"
+					item: {
+						Count: 1
+						id: "endermanoverhaul:corrupted_blade"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "17B8C7A9E29C7AFC"
+					item: "cyclic:chorus_spectral"
+					type: "item"
+				}
+				{
+					id: "14BA43FF9FA60756"
+					item: {
+						Count: 1
+						id: "endermanoverhaul:corrupted_shield"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "353C16757DB07471"
+					item: {
+						Count: 1
+						id: "endermanoverhaul:badlands_hood"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "734A9EFB44DD2C49"
+					item: {
+						Count: 1
+						id: "endermanoverhaul:savanna_hood"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4D35B0CAF1E21BDC"
+					item: {
+						Count: 1
+						id: "endermanoverhaul:snowy_hood"
+						tag: {
+							Damage: 0
+							affix_data: {
+								sockets: 1
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "169D462108E96552"
+			rewards: [{
+				id: "5B1A47B67E65A9D1"
+				item: {
+					Count: 1
+					id: "endermanoverhaul:soul_pearl"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "5E3AD8CBB5F2AADE"
+				type: "kill"
+				value: 50L
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			id: "1D049FD787758182"
+			rewards: [{
+				id: "236E7E200D9DE82D"
+				item: "cyclic:heart_empty"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "42A54B29381D1A60"
+				item: { Count: 10, id: "minecraft:experience_bottle" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "5AF1F2AD25F7BF7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BB5CFFBB8AB5EBF"
+				table_id: 6364108589402772215L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "0E93427B3C7BDF74"
+				points: false
+				type: "xp"
+				value: 10L
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "5263C61707C91EFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42AC30E962C39B8C"
+				table_id: 7317084867075618648L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "37F487834A2BC5E7"
+				points: false
+				type: "xp"
+				value: 50L
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "4BFE39317E77AAD5"
+			rewards: [{
+				id: "6DC4FB484CFA2880"
+				item: "create:goggles"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "4460D184CB9FBA00"
+					item: { Count: 2, id: "minecraft:glass" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5785BDACCADA1A45"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			id: "636125A5F55A9F0B"
+			rewards: [
+				{
+					id: "33DAAEAA939E8FF4"
+					item: {
+						Count: 1
+						id: "cyclic:charm_home"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E0674E4376FABA9"
+					item: {
+						Count: 1
+						id: "minecraft:lingering_potion"
+						tag: {
+							Potion: "apotheosis:flying"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexsmobs:flying_fish"
+				id: "7963E82AEF16AA3C"
+				type: "kill"
+				value: 100L
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			id: "4F44FAF5E3908A2E"
+			rewards: [{
+				id: "000E1C32CFC41B0E"
+				item: {
+					Count: 1
+					id: "born_in_chaos_v1:sharpened_dark_metal_sword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "alexsmobs:crow"
+				id: "62C675FE856EB86C"
+				type: "kill"
+				value: 100L
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+	]
+	title: "repetiveis"
+}

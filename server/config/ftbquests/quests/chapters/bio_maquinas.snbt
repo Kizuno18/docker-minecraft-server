@@ -1,0 +1,107 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bio_maquinas"
+	group: "40669C1616F801AB"
+	id: "2567E12A30E0B326"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "35022ED82BDA75F0"
+			rewards: [
+				{
+					count: 10
+					id: "71CB27E4EA76D26B"
+					item: "biomancy:flesh_blob_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "139FC86DD6390FD8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "biomancy:flesh_blob"
+				id: "1231B0E7D2971EF3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35022ED82BDA75F0"]
+			id: "496736BF9047F553"
+			rewards: [{
+				id: "18A5C1A4BE9A2853"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "4D07C8F814305FCB"
+				item: "biomancy:bio_forge"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35022ED82BDA75F0"]
+			id: "5963A35CE0BAF468"
+			rewards: [{
+				id: "7E17C43632D2F729"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "163D27489F81A452"
+				item: "biomancy:decomposer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["496736BF9047F553"]
+			id: "1881BB5BE8EE1CFB"
+			rewards: [{
+				id: "2D6614533DDC195B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0814FC0C5ADAAD12"
+				item: "biomancy:bio_lab"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1881BB5BE8EE1CFB"]
+			id: "26BA8146E426B4D0"
+			rewards: [
+				{
+					id: "24D295002CEC711C"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "3243AE26E98ED338"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "52B8CE9527BB41C7"
+				item: "biomancy:primordial_cradle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+	title: "bio maquinas"
+}

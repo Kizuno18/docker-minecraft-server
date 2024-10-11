@@ -1,0 +1,17 @@
+{
+	id: "e0240aeb-52aa-3200-a944-59c70eb5f8c9"
+	type: "player"
+	player_name: "LeoMoura"
+	ranks: {
+		e0240aeb-52aa-3200-a944-59c70eb5f8c9: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "LeoMoura"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59E0"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

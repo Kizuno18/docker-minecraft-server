@@ -1,0 +1,21 @@
+{
+	id: "658B81EB456DB758"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "scalinghealth:power_crystal" }
+		{ item: "scalinghealth:heart_crystal" }
+		{ count: 50, item: "armorplus:ender_dragon_arrow" }
+		{ count: 50, item: "alexscaves:seeking_arrow" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "apotheosis:extra_long_flying"
+				}
+			}
+		}
+	]
+	title: "heart little"
+}

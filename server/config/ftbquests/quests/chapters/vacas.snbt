@@ -1,0 +1,266 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vacas"
+	group: "009AB9BE29ED77D9"
+	id: "1E809B4A42DE552D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "26C410E101BE2947"
+			rewards: [
+				{
+					id: "25A45F1F79EF8891"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "139EFEBEB770AA9B"
+					item: "apple_cows:apple_cow_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1E0EDAE720668847"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "01B3F5394E75E78D"
+					item: "apple_cows:golden_wheat"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "00B0BA9B969142DE"
+			rewards: [{
+				id: "7FC21D26870A8DD7"
+				item: "apple_cows:apple_cow_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5D79A24B55CC9945"
+				item: { Count: 4, id: "apple_cows:golden_wheat" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["26C410E101BE2947"]
+			id: "0CE1DD7C5E489A95"
+			rewards: [
+				{
+					id: "4265276CF374E422"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					id: "702624E2DBFCB57F"
+					item: "orecow:coal_cow_spawn_egg"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "440E7B7F452EBBC0"
+				item: "orecow:coal_cow_spawn_egg"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0CE1DD7C5E489A95"]
+			id: "7CF9BD6222395BF0"
+			rewards: [
+				{
+					id: "71881F7F9A2E5F4C"
+					item: "orecow:iron_cow_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "0EAD909A8328FAEC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "2AA9AED2A58D9B40"
+				item: "orecow:iron_cow_spawn_egg"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7CF9BD6222395BF0"]
+			id: "2494CBD7E6C3C84E"
+			rewards: [
+				{
+					id: "75EC6423A22B79E0"
+					item: "orecow:gold_cow_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "3C91AEE89F2E11B9"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "0049339206A16791"
+				item: "orecow:gold_cow_spawn_egg"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2494CBD7E6C3C84E"]
+			id: "63D9624F11BD55BD"
+			rewards: [
+				{
+					id: "2775B59D242AD9EE"
+					item: "orecow:lapis_cow_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "7400DB1EE0541BA9"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [{
+				id: "70025F2018F943A8"
+				item: "orecow:lapis_cow_spawn_egg"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63D9624F11BD55BD"]
+			id: "6F8114C6A9F4C49F"
+			rewards: [
+				{
+					id: "1B2B324703EB543E"
+					item: "orecow:redstone_cow_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "450135DA2A67D567"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [{
+				id: "272966BCEF398293"
+				item: "orecow:redstone_cow_spawn_egg"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6F8114C6A9F4C49F"]
+			id: "7E2BBFDDCAB2489F"
+			rewards: [
+				{
+					id: "6B5C33AE3C3952F7"
+					item: "orecow:diamond_cow_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "5ED09D2D8FA263E2"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "388B74B04C139BB3"
+				item: "orecow:diamond_cow_spawn_egg"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E2BBFDDCAB2489F"]
+			id: "02C01690613AED92"
+			rewards: [
+				{
+					id: "055CEC84A152A0E5"
+					item: "orecow:emerald_cow_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "6848B0D34561D89C"
+					type: "xp_levels"
+					xp_levels: 35
+				}
+			]
+			tasks: [{
+				id: "2D658C4457F0D86A"
+				item: "orecow:emerald_cow_spawn_egg"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0CE1DD7C5E489A95"]
+			id: "7C966E3C41CD968E"
+			rewards: [
+				{
+					id: "55EF65C4774BC324"
+					item: "orecow:copper_cow_spanw_egg"
+					type: "item"
+				}
+				{
+					id: "2F4A6F3A94465604"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "2EE8D5ED715256ED"
+				item: "orecow:copper_cow_spanw_egg"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0CE1DD7C5E489A95"]
+			id: "1E80E5C6FEE4ED6C"
+			rewards: [
+				{
+					id: "4A1A8CC1C54D7920"
+					item: "orecow:tin_cow_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "6813F4BB3A44F5DC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "292824861380D532"
+				item: "orecow:tin_cow_spawn_egg"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+	]
+	title: "vacas"
+}

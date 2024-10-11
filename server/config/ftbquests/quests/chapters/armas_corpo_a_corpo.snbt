@@ -1,0 +1,807 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "armas_corpo_a_corpo"
+	group: "3E0CB2FBC6F4C62D"
+	id: "77F32E8C31BA3541"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "473410B6B9F59F07"
+			rewards: [
+				{
+					id: "73FF314A5D129247"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5438B277A8478B3C"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "1A51B4DE1F2EB9F5"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3F42017C1B7B3A4F"
+					item: "spartanweaponry:pole"
+					type: "item"
+				}
+				{
+					id: "3E37D323CE5FB287"
+					item: "spartanweaponry:simple_pole"
+					type: "item"
+				}
+				{
+					id: "0521844F443397E5"
+					item: "spartanweaponry:handle"
+					type: "item"
+				}
+				{
+					id: "5BF16ACFD21E59AD"
+					item: "spartanweaponry:simple_handle"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7A07B60CB22864BD"
+			rewards: [
+				{
+					id: "70E434897C6D6CF5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "312793D4ED825B3E"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "37054AA32458C3A2"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51A34BC9B8D227A8"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_scythe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "6622270D7A0797BC"
+			rewards: [
+				{
+					id: "4132C31B36DB2BE5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "192026AB3D74C01D"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "504790D2CEAB4ECB"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B417FDAE8D58F5B"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_halberd"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "1C6B03CB3E1F360E"
+			rewards: [
+				{
+					id: "4B5653595F644B28"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "200B0C913DD72849"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "52F333AED37C779D"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "45C5BD66E2A37477"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_warhammer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "1DCFF57BC1A4978C"
+			rewards: [
+				{
+					id: "06AC019684EFA503"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7BE531274C169292"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "13750F0310353203"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C9EAF4CA51C9FB2"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_battle_hammer"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "542A58F18E5E71BB"
+			rewards: [
+				{
+					id: "64E368BF6D6D3483"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "64D1BBA16CD377C7"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "7A0A5C92E7428681"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5F442BBBAC73D5A3"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_rapier"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			id: "3F28AF3F0819F4D7"
+			rewards: [
+				{
+					id: "3D6F668FF1566F3B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "783CB51FDD2430C6"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "7CD9844A854B7B7F"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "237298A8EA6476C9"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_saber"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "4CF6BB05B59780A1"
+			rewards: [
+				{
+					id: "2086E5E8A6BF17A9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "188DFBAE497643E3"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "2CB8422ECF55CF81"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BD43AAD51D93899"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_katana"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "3F5A648E58CA1F82"
+			rewards: [
+				{
+					id: "5375FAA8CB1A89FE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4D49EF0C81EAFBC6"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "3261053B8E192582"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "789A64BD2CDC4D35"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_longsword"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "190E8AA4AEC73CD5"
+			rewards: [
+				{
+					id: "459FC67D60CF01C8"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "30BCFB137ED441EE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "08E3CD4657151214"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "01A16305756DF75B"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_parrying_dagger"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "40A43F4666803461"
+			rewards: [
+				{
+					id: "02145B4207783C6A"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "46C23EE5750AEE96"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0C95431DAD9997E1"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09C918A30B368764"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_dagger"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "6749F31E263861CD"
+			rewards: [
+				{
+					id: "33C1B80FFC1F0AD2"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "64FA95267CD1E204"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "51B14551DA3C076F"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "368C0BE5BC82AAA2"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_glaive"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "492FF489A0B9C416"
+			rewards: [
+				{
+					id: "598485DE6B01D443"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "3482746FFCE2AC3C"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "2CFA2682B10756D7"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00B437B45B38D371"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_flanged_mace"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "3155A329A51D57C3"
+			rewards: [
+				{
+					id: "6F5491EDDBE98A3A"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "6833E00D97360050"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "1F55844C052DD973"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26C1FF38F28B5C94"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_battleaxe"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "3B9E86554ACCF137"
+			rewards: [
+				{
+					id: "0D707D95557C9C54"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "31BF98E7DE5617D6"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A8804C3D64A63F0"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_tomahawk"
+					tag: {
+						AmmoUsed: 0
+						Damage: 0
+						Original: 1b
+						UUID: [I;
+							-1566039323
+							-125943672
+							-1763607195
+							-1347110956
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "1CE67AC7CEEB913A"
+			rewards: [
+				{
+					id: "5CE091D829AC78AB"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "12B98343710372FF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0BBDC01D32DD0365"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59E3B7B67B603673"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_throwing_knife"
+					tag: {
+						AmmoUsed: 0
+						Damage: 0
+						Original: 1b
+						UUID: [I;
+							-1975493044
+							190662490
+							-1744243433
+							1226568633
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			id: "3C9A454EE461D8EA"
+			rewards: [
+				{
+					count: 2
+					id: "76FAF926A7B09BAA"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "56590345DDF1ACDE"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A993091D3D68107"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_lance"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			id: "0575AC6174155079"
+			rewards: [
+				{
+					id: "4467F83FA9129E8C"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "42313EA852620463"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "23E34668ADF315BB"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "257938854ABE6F80"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_pike"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			id: "733E844824A1BD1C"
+			rewards: [{
+				count: 64
+				id: "77BC517921DC36F1"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2E559DC43F101F1E"
+					item: "spartanweaponry:handle"
+					type: "item"
+				}
+				{
+					id: "4B5D8C711F15B39C"
+					item: {
+						Count: 1
+						id: "spartanweaponry:wooden_boomerang"
+						tag: {
+							AmmoUsed: 0
+							Damage: 0
+							Original: 1b
+							UUID: [I;
+								-1588248653
+								-1323809788
+								-1710065757
+								-889187506
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["733E844824A1BD1C"]
+			id: "6678F505BB47CEA1"
+			rewards: [
+				{
+					id: "7D6AB54EC2237628"
+					item: "scalinghealth:heart_crystal"
+					type: "item"
+				}
+				{
+					id: "2F395C8D3A20C7F2"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5A317F271F7FEC93"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_boomerang"
+					tag: {
+						AmmoUsed: 0
+						Damage: 0
+						Original: 1b
+						UUID: [I;
+							-1147528373
+							-1821686710
+							-1160006934
+							514703354
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["733E844824A1BD1C"]
+			id: "2693A41D9F43510B"
+			rewards: [
+				{
+					id: "39B8B85251A4388A"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "635453C6D285847D"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "127226C599D489C1"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_longbow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["733E844824A1BD1C"]
+			id: "4298DD39E48E321B"
+			rewards: [
+				{
+					id: "2ACF29D3EE8EAF76"
+					item: "scalinghealth:power_crystal"
+					type: "item"
+				}
+				{
+					id: "06C6CC1D0CFA3712"
+					item: "apotheosis:mythic_material"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A46D749BABF60BC"
+				item: {
+					Count: 1
+					id: "spartanweaponry:diamond_heavy_crossbow"
+					tag: {
+						Damage: 0
+						affix_data: {
+							sockets: 1
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+	]
+	title: "armas corpo a corpo"
+}

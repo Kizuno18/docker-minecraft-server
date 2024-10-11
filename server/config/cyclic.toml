@@ -412,7 +412,7 @@
 				buffer = 16
 				# How many fluid units per tick can flow through these cables each tick (1 bucket = 1000) including normal flow and extraction mode
 				#Range: > 100
-				flow = 1000
+				flow = 16000
 
 			[cyclic.blocks.cables.energy]
 				# How much buffer the energy cables hold (must not be smaller than flow)
@@ -420,7 +420,7 @@
 				buffer = 32000
 				# How fast energy flows in these cables (must not be greater than buffer)
 				#Range: > 100
-				flow = 1000
+				flow = 32000
 
 		[cyclic.blocks.generator_food]
 			# RF energy per tick generated while burning food in this machine
@@ -513,6 +513,16 @@
 			# Radius to protect players and entities from potion effects being applied (used by both sponge and artemisbeacon). 
 			#Range: 1 ~ 128
 			radius = 16
+
+		[cyclic.blocks.facades]
+			#
+			#  These blocks are not allowed to be used as Facades for blocks because they look weird (used by cables and Glowstone Facade and Soundproofing Facade and others)
+			itemsNotAllowed = ["minecraft:ladder", "minecraft:double_plant", "minecraft:waterlily", "minecraft:torch", "minecraft:*_torch", "minecraft:redstone", "minecraft:iron_bars", "minecraft:chest", "minecraft:ender_chest", "minecraft:sculk_vein", "minecraft:string", "minecraft:vine", "minecraft:rail", "minecraft:*_rail", "minecraft:brewing_stand", "minecraft:*_dripleaf", "minecraft:*_pane", "minecraft:*_sapling", "minecraft:*_sign", "minecraft:*_door", "minecraft:*_banner", "minecraft:*_shulker_box", "cyclic:*_pipe", "cyclic:*_bars", "storagenetwork:*"]
+
+			[cyclic.blocks.facades.cables]
+				#
+				# Allow cables to have blocks placed in them as facades (sneak-left-click to set; use empty hand to remove).  Set to false to disable facades
+				enabled = true
 
 		[cyclic.blocks.user]
 			# Power per use user

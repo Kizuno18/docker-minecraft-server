@@ -1,0 +1,69 @@
+{
+	id: "5851DB0B275D52F7"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "create_sa:experience_sword"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "delightful:experience_knife"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "create_sa:experience_axe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 1
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "create_sa:experience_shovel"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "create_sa:experience_pickaxe"
+				tag: {
+					Damage: 0
+					affix_data: {
+						sockets: 0
+					}
+				}
+			}
+		}
+		{ item: "cyclic:experience_pylon" }
+	]
+	title: "xp"
+}
