@@ -2,9 +2,7 @@
 	id: "545ade12-7728-34aa-9ae8-267c0fb902f7"
 	type: "player"
 	player_name: "drakk18"
-	ranks: {
-		545ade12-7728-34aa-9ae8-267c0fb902f7: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "drakk18"
 		"ftbteams:description": ""

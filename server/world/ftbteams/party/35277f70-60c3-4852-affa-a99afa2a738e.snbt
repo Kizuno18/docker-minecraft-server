@@ -1,0 +1,22 @@
+{
+	id: "35277f70-60c3-4852-affa-a99afa2a738e"
+	type: "party"
+	owner: "e0240aeb-52aa-3200-a944-59c70eb5f8c9"
+	ranks: {
+		545ade12-7728-34aa-9ae8-267c0fb902f7: "member"
+		e0240aeb-52aa-3200-a944-59c70eb5f8c9: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "abracadabra"
+		"ftbteams:description": "shazam"
+		"ftbteams:color": "#FF59E0"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1728666132029L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"LeoMoura\"}]}" }
+		{ from: "e0240aeb-52aa-3200-a944-59c70eb5f8c9", date: 1728666161740L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"drakk18\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1728666164640L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"drakk18\"}]}" }
+	]
+	extra: { }
+}

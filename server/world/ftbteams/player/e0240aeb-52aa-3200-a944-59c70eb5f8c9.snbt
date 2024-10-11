@@ -2,9 +2,7 @@
 	id: "e0240aeb-52aa-3200-a944-59c70eb5f8c9"
 	type: "player"
 	player_name: "LeoMoura"
-	ranks: {
-		e0240aeb-52aa-3200-a944-59c70eb5f8c9: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "LeoMoura"
 		"ftbteams:description": ""

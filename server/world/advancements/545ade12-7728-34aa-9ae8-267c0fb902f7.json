@@ -35,21 +35,9 @@
     },
     "done": true
   },
-  "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone": {
-    "criteria": {
-      "biomeswevegone:orchard": "2024-10-11 14:46:42 +0000"
-    },
-    "done": false
-  },
   "piglet_structures:piglet_structures_advancement": {
     "criteria": {
       "piglet_structures_advancement_0": "2024-10-11 14:43:44 +0000"
-    },
-    "done": true
-  },
-  "farm_and_charm:main/root": {
-    "criteria": {
-      "example_criterion": "2024-10-11 14:43:46 +0000"
     },
     "done": true
   },
@@ -146,27 +134,9 @@
     },
     "done": true
   },
-  "mca:root": {
-    "criteria": {
-      "village_plains": "2024-10-11 14:46:55 +0000"
-    },
-    "done": true
-  },
   "mca:recipes/building_blocks/headstones": {
     "criteria": {
       "has_the_upright_recipe": "2024-10-11 14:43:44 +0000"
-    },
-    "done": true
-  },
-  "biomeswevegone:biomeswevegone/adventure/root": {
-    "criteria": {
-      "biomeswevegone:orchard": "2024-10-11 14:46:42 +0000"
-    },
-    "done": true
-  },
-  "mca:recipes/misc/bouquet": {
-    "criteria": {
-      "has_item": "2024-10-11 14:50:06 +0000"
     },
     "done": true
   },
@@ -181,12 +151,6 @@
       "always": "2024-10-11 14:43:44 +0000"
     },
     "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:plains": "2024-10-11 14:43:46 +0000"
-    },
-    "done": false
   },
   "apotheosis:give_book": {
     "criteria": {
@@ -230,6 +194,474 @@
   "moredelight:main/root": {
     "criteria": {
       "seeds": "2024-10-11 14:43:44 +0000"
+    },
+    "done": true
+  },
+  "farm_and_charm:main/root": {
+    "criteria": {
+      "example_criterion": "2024-10-11 14:43:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2024-10-11 18:04:46 +0000",
+      "minecraft:river": "2024-10-11 17:32:32 +0000",
+      "minecraft:dripstone_caves": "2024-10-11 17:21:20 +0000",
+      "minecraft:grove": "2024-10-11 15:37:23 +0000",
+      "minecraft:forest": "2024-10-11 17:01:22 +0000",
+      "minecraft:savanna": "2024-10-11 18:04:21 +0000",
+      "minecraft:plains": "2024-10-11 14:43:46 +0000"
+    },
+    "done": false
+  },
+  "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone": {
+    "criteria": {
+      "biomeswevegone:sakura_grove": "2024-10-11 15:36:52 +0000",
+      "biomeswevegone:orchard": "2024-10-11 14:46:42 +0000",
+      "biomeswevegone:ironwood_gour": "2024-10-11 18:04:32 +0000"
+    },
+    "done": false
+  },
+  "biomeswevegone:biomeswevegone/adventure/root": {
+    "criteria": {
+      "biomeswevegone:orchard": "2024-10-11 14:46:42 +0000"
+    },
+    "done": true
+  },
+  "mca:root": {
+    "criteria": {
+      "village_plains": "2024-10-11 14:46:55 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/bouquet": {
+    "criteria": {
+      "has_item": "2024-10-11 14:50:06 +0000"
+    },
+    "done": true
+  },
+  "simpleores:tin_brick_slab": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:39 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll_sturdy": {
+    "criteria": {
+      "find": "2024-10-11 17:17:19 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/family_tree": {
+    "criteria": {
+      "has_item": "2024-10-11 17:52:11 +0000"
+    },
+    "done": true
+  },
+  "thinair:protection_from_yellow": {
+    "criteria": {
+      "protecc": "2024-10-11 15:37:25 +0000"
+    },
+    "done": true
+  },
+  "paraglider:root": {
+    "criteria": {
+      "crafting_table": "2024-10-11 15:43:53 +0000"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:bleeding_inflicted": {
+    "criteria": {
+      "bleeding_applied": "2024-10-11 17:37:02 +0000"
+    },
+    "done": true
+  },
+  "simpleores:tin_bars": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:39 +0000"
+    },
+    "done": true
+  },
+  "tetra:recipes/string": {
+    "criteria": {
+      "got_string": "2024-10-11 17:17:19 +0000"
+    },
+    "done": true
+  },
+  "majruszsaccessories:certificate_of_taming": {
+    "criteria": {
+      "picked_up_accessory": "2024-10-11 18:05:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2024-10-11 15:53:00 +0000"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/wooden": {
+    "criteria": {
+      "has_item": "2024-10-11 15:42:30 +0000"
+    },
+    "done": true
+  },
+  "simpleores:tin_boots": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "onion": "2024-10-11 15:44:06 +0000"
+    },
+    "done": true
+  },
+  "majruszsaccessories:lucky_rock": {
+    "criteria": {
+      "picked_up_accessory": "2024-10-11 17:30:31 +0000"
+    },
+    "done": true
+  },
+  "thinair:root": {
+    "criteria": {
+      "bad_air": "2024-10-11 15:37:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-10-11 15:49:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2024-10-11 16:43:34 +0000",
+      "minecraft:zombie": "2024-10-11 17:41:17 +0000"
+    },
+    "done": false
+  },
+  "thinair:signal_torch": {
+    "criteria": {
+      "use": "2024-10-11 15:57:54 +0000"
+    },
+    "done": true
+  },
+  "simpleores:tin_helmet": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:39 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/needle_and_thread": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:19 +0000"
+    },
+    "done": true
+  },
+  "simpleores:tin_pickaxe": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:39 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/root": {
+    "criteria": {
+      "sword": "2024-10-11 17:17:19 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/cave_tablet": {
+    "criteria": {
+      "cave_tablet": "2024-10-11 17:58:47 +0000"
+    },
+    "done": true
+  },
+  "vinery:main/wine_collector": {
+    "criteria": {
+      "vinery:cristel_wine": "2024-10-11 16:44:09 +0000"
+    },
+    "done": false
+  },
+  "simpleores:tin_chestplate": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-10-11 15:39:04 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/chests": {
+    "criteria": {
+      "sword": "2024-10-11 17:17:19 +0000"
+    },
+    "done": true
+  },
+  "simpleores:tin_sword": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "wheat": "2024-10-11 17:10:40 +0000"
+    },
+    "done": false
+  },
+  "simpleores:tin_bricks": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:39 +0000"
+    },
+    "done": true
+  },
+  "simpleores:tin_hoe": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:39 +0000"
+    },
+    "done": true
+  },
+  "tetra:spelunking/find_scroll": {
+    "criteria": {
+      "find": "2024-10-11 17:17:19 +0000"
+    },
+    "done": true
+  },
+  "simpleores:tin_leggings": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:39 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_bucket": {
+    "criteria": {
+      "has_bucket": "2024-10-11 17:17:19 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/discover_forlorn_hollows": {
+    "criteria": {
+      "discover": "2024-10-11 17:11:55 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/random": {
+    "criteria": {
+      "sword": "2024-10-11 17:41:18 +0000"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:bleeding": {
+    "criteria": {
+      "bleeding_applied": "2024-10-11 15:39:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-10-11 17:51:13 +0000"
+    },
+    "done": true
+  },
+  "mca:recipes/misc/comb": {
+    "criteria": {
+      "has_item": "2024-10-11 17:53:50 +0000"
+    },
+    "done": true
+  },
+  "tetra:recipes/planks": {
+    "criteria": {
+      "got_wood": "2024-10-11 15:43:52 +0000"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/robe": {
+    "criteria": {
+      "has_item": "2024-10-11 17:02:09 +0000"
+    },
+    "done": true
+  },
+  "thinair:protection_from_red": {
+    "criteria": {
+      "protecc": "2024-10-11 17:29:00 +0000"
+    },
+    "done": true
+  },
+  "estrogen:root": {
+    "criteria": {
+      "root": "2024-10-11 16:41:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2024-10-11 15:53:51 +0000"
+    },
+    "done": true
+  },
+  "vinery:main/get_wine": {
+    "criteria": {
+      "have_any_wine": "2024-10-11 16:44:09 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/coke_oven/coal_coke": {
+    "criteria": {
+      "has_coal": "2024-10-11 16:02:02 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:biomeswevegone/husbandry/johnny_appleseed": {
+    "criteria": {
+      "apple": "2024-10-11 15:44:06 +0000"
+    },
+    "done": false
+  },
+  "apotheosis:affix/gem": {
+    "criteria": {
+      "gem": "2024-10-11 15:44:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-10-11 18:02:38 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/coke_oven/charcoal": {
+    "criteria": {
+      "has_logs": "2024-10-11 15:42:30 +0000"
+    },
+    "done": true
+  },
+  "simpleores:tin_shears": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:39 +0000"
+    },
+    "done": true
+  },
+  "simpleores:tin_door": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2024-10-11 15:40:22 +0000"
+    },
+    "done": true
+  },
+  "simpleores:tin_shovel": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:39 +0000"
+    },
+    "done": true
+  },
+  "immersive_armors:recipes/misc/bone": {
+    "criteria": {
+      "has_item": "2024-10-11 15:45:48 +0000"
+    },
+    "done": true
+  },
+  "croptopia:root": {
+    "criteria": {
+      "root": "2024-10-11 17:10:18 +0000"
+    },
+    "done": true
+  },
+  "biomancy:biomancy/root": {
+    "criteria": {
+      "has_raw_meats": "2024-10-11 16:53:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2024-10-11 16:43:34 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:biomeswevegone/husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-10-11 15:39:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-10-11 17:10:40 +0000"
+    },
+    "done": true
+  },
+  "armorplus:story/root": {
+    "criteria": {
+      "crafting_table": "2024-10-11 15:43:53 +0000"
+    },
+    "done": true
+  },
+  "rats:plague_doctor": {
+    "criteria": {
+      "meet_doctor": "2024-10-11 16:06:51 +0000"
+    },
+    "done": true
+  },
+  "immersive_weathering:immersive_weathering/dirts": {
+    "criteria": {
+      "grass": "2024-10-11 16:03:41 +0000",
+      "dirt": "2024-10-11 15:38:33 +0000"
+    },
+    "done": false
+  },
+  "simpleores:tin_axe": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "apple": "2024-10-11 15:44:23 +0000",
+      "bread": "2024-10-11 15:49:45 +0000",
+      "rotten_flesh": "2024-10-11 15:39:04 +0000"
+    },
+    "done": false
+  },
+  "armorplus:story/thank_you_6m": {
+    "criteria": {
+      "open_inventory": "2024-10-11 15:43:53 +0000"
+    },
+    "done": true
+  },
+  "vinery:main/get_apple": {
+    "criteria": {
+      "apple": "2024-10-11 15:44:06 +0000"
+    },
+    "done": true
+  },
+  "simpleores:tin_brick_stairs": {
+    "criteria": {
+      "has_item": "2024-10-11 17:17:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-10-11 15:43:53 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:junior_summoner": {
+    "criteria": {
+      "junior_summoner_0": "2024-10-11 16:04:03 +0000"
     },
     "done": true
   },

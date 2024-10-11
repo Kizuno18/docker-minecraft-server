@@ -1,0 +1,8 @@
+{
+	warps: {
+		porco: { dim: "minecraft:overworld", x: 3493, y: 82, z: -20315, time: 1728669050211L, xRot: 43.499657f, yRot: 115.181f }
+		casa: { dim: "minecraft:overworld", x: -137, y: 88, z: 925, time: 1728669940405L, xRot: -16.950117f, yRot: -13.803864f }
+	}
+	mute_timeouts: { }
+	kits: { }
+}
